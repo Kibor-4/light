@@ -4,91 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products - Leading Light</title>
-    <link rel="stylesheet" href="/light/style.css">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Leading light</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="header-container">
+                <div class="branding">
+                    <div class="logo">
+                        <img src="images/NEWLOGO.jpg" alt="Leading Light Logo">
+                    </div>
+                    <h1 class="company-name">Leading Light</h1>
+                </div>
+                
+                <nav class="navlist">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
+
+    <div class="product-choice-container">
+        <button class="product-choice-button all" onclick="filterProducts('all')">All</button>
+        <button class="product-choice-button" onclick="filterProducts('laptops')">Laptops</button>
+        <button class="product-choice-button" onclick="filterProducts('pcs')">PCs</button>
+        <button class="product-choice-button" onclick="filterProducts('accessories')">Accessories</button>
+    </div>
 
     <section class="products">
         <div class="container">
             <h2>Our Inventory</h2>
-            <div class="products-grid">
-                <!-- Product 1 -->
-                <div class="product-card">
-                    <img src="images/laptop1.jpg" alt="Premium Laptop">
-                    <h3>UltraBook Pro</h3>
-                    <p>15.6" 4K Display, 16GB RAM, 1TB SSD</p>
-                    <p class="price">$999.99</p>
-                    <p class="stock">In Stock: 15</p>
+            <div class="products-grid" id="productGrid">
                 </div>
-                <!-- Product 2 -->
-                <div class="product-card">
-                    <img src="images/laptop2.jpg" alt="Budget Laptop">
-                    <h3>Everyday Notebook</h3>
-                    <p>14" HD Display, 8GB RAM, 256GB SSD</p>
-                    <p class="price">$499.99</p>
-                    <p class="stock">In Stock: 8</p>
-                </div>
-                <!-- Product 3 -->
-                <div class="product-card">
-                    <img src="images/phone1.jpg" alt="Smartphone">
-                    <h3>Galaxy X Phone</h3>
-                    <p>6.7" AMOLED, 128GB Storage, 5G</p>
-                    <p class="price">$799.99</p>
-                    <p class="stock">In Stock: 12</p>
-                </div>
-                <!-- Product 4 -->
-                <div class="product-card">
-                    <img src="images/phone2.jpg" alt="Budget Phone">
-                    <h3>Pixl 4a</h3>
-                    <p>6.2" OLED, 64GB Storage, Great Camera</p>
-                    <p class="price">$349.99</p>
-                    <p class="stock">In Stock: 5</p>
-                </div>
-                <!-- Product 5 -->
-                <div class="product-card">
-                    <img src="images/headphones1.jpg" alt="Wireless Headphones">
-                    <h3>NoiseFree Headphones</h3>
-                    <p>Active Noise Cancelling, 30hr Battery</p>
-                    <p class="price">$249.99</p>
-                    <p class="stock">In Stock: 20</p>
-                </div>
-                <!-- Product 6 -->
-                <div class="product-card">
-                    <img src="images/headphones2.jpg" alt="Earbuds">
-                    <h3>MiniBuds Pro</h3>
-                    <p>True Wireless, 24hr Battery, Waterproof</p>
-                    <p class="price">$129.99</p>
-                    <p class="stock">In Stock: 18</p>
-                </div>
-                <!-- Product 7 -->
-                <div class="product-card">
-                    <img src="images/smartwatch.jpg" alt="Smartwatch">
-                    <h3>FitTrack 3</h3>
-                    <p>Health Monitoring, 7-day Battery</p>
-                    <p class="price">$199.99</p>
-                    <p class="stock">In Stock: 10</p>
-                </div>
-                <!-- Product 8 -->
-                <div class="product-card">
-                    <img src="images/tablet.jpg" alt="Tablet">
-                    <h3>ViewTab S</h3>
-                    <p>10.5" Display, 64GB Storage, Stylus</p>
-                    <p class="price">$329.99</p>
-                    <p class="stock">In Stock: 7</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -98,5 +50,6 @@
             <p>Contact us: info@Leadinglight@ac.ke | #</p>
         </div>
     </footer>
+    <script src="product.js"></script>
 </body>
 </html>
