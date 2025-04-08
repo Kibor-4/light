@@ -330,25 +330,11 @@ const productsData = [
 {
     category: 'laptops',
     images: [
-        "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
-        "Stock/HP ELITEBOOK 840 G5/pic5.jpg",
-        "Stock/HP ELITEBOOK 840 G5/pic3.jpg",
-        "Stock/HP ELITEBOOK 840 G5/pic2.jpg",
-        "Stock/HP ELITEBOOK 840 G5/pic1.jpg",
-            ],
-    title: 'HP Probook 840 G5',
-    description: 'Type-C cable',
-    price: 'KSh 16,500',
-    stock: 'In Stock:3'
-},
-{
-    category: 'laptops',
-    images: [
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic5.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic4.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic3.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic2.webp",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic1.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic5.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic4.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic3.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic2.webp",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic1.jpg",
             ],
     title: 'HP Elitebook 840 G2',
     description: 'Type-C cable',
@@ -358,11 +344,11 @@ const productsData = [
 {
     category: 'laptops',
     images: [
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic5.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic4.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic3.jpg",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic2.webp",
-        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic1.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic5.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic4.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic3.jpg",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic2.webp",
+        "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic1.jpg",
             ],
     title: 'HP Probook 840 G2',
     description: 'Type-C cable',
@@ -496,7 +482,27 @@ const productsData = [
     price: 'KSh 16,500',
     stock: 'In Stock:3'
 },
-
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic5.jpg",
+        "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic4.jpg",
+        "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic3.jpg",
+        "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic2.jpg",
+        "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic1.jpg",
+        ],
+    title: 'HP Probook 445 Ryzen G9',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3',
+    specs: {
+        cpu: 'AMD Ryzen 7',
+        ram: '16GB',
+        storage: '256GB SSD',
+        screen: '14-inch Touchscreen'
+        // Add more specs as needed
+    }
+},
 
 
 
