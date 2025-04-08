@@ -34,15 +34,15 @@ const productsData = [
     {
         category: 'accessories',
         images: [
-            "Images/Stock/Oraimo Space buds/pic1.webp",
-            "Images/Stock/Oraimo Space buds/pic2.webp",
-            "Images/Stock/Oraimo Space buds/pic3.webp",
-            "Images/Stock/Oraimo Space buds/pic4.webp",
-            "Images/Stock/Oraimo Space buds/pic5.webp",
-            "Images/Stock/Oraimo Space buds/pic6.webp",
-            "Images/Stock/Oraimo Space buds/pic7.webp",
-            "Images/Stock/Oraimo Space buds/pic8.webp",
-            "Images/Stock/Oraimo Space buds/pic9.webp"
+            "Stock/Oraimo Space buds/pic1.webp",
+            "Stock/Oraimo Space buds/pic2.webp",
+            "Stock/Oraimo Space buds/pic3.webp",
+            "Stock/Oraimo Space buds/pic4.webp",
+            "Stock/Oraimo Space buds/pic5.webp",
+            "Stock/Oraimo Space buds/pic6.webp",
+            "Stock/Oraimo Space buds/pic7.webp",
+            "Stock/Oraimo Space buds/pic8.webp",
+            
         ],
         title: 'Oraimo Space Buds Pro',
         description: 'Listen to music you love unbothered',
@@ -298,6 +298,206 @@ const productsData = [
     price: 'KSh 16,500',
     stock: 'In Stock:3'
 },
+{
+    category: 'laptops',
+    images: [
+            "Stock/HP PROBOOK 440 G5/pic1.jpg",
+            "Stock/HP PROBOOK 440 G5/pic2.webp",
+            "Stock/HP PROBOOK 440 G5/pic3.jpg",
+            "Stock/HP PROBOOK 440 G5/pic2.jpg",
+            "Stock/HP PROBOOK 440 G5/pic4.jpg",
+            "Stock/HP PROBOOK 440 G5/pic5.jpg",
+            ],
+    title: 'HP Probook 440 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic5.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic3.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic2.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic1.jpg",
+            ],
+    title: 'HP Probook 840 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic5.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic3.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic2.jpg",
+        "Stock/HP ELITEBOOK 840 G5/pic1.jpg",
+            ],
+    title: 'HP Probook 840 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic5.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic4.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic3.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic2.webp",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic1.jpg",
+            ],
+    title: 'HP Elitebook 840 G2',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic5.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic4.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic3.jpg",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic2.webp",
+        "Stock\HP ELITEBOOK 840 G2, 5TH GEN\pic1.jpg",
+            ],
+    title: 'HP Probook 840 G2',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+       " Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic5.jpg",
+        "Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic4.png",
+       " Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic3.jpg",
+        "Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic2.jpg",
+        "Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic1.jpg",
+            ],
+    title: 'HP Elitebok 830 X360 i5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP 830 G5/pic1.jpg",
+        "Stock/HP 830 G5/pic2.jpg",
+        "Stock/HP 830 G5/pic3.jpg",
+        "Stock/HP 830 G5/pic4.jpg",
+        "Stock/HP 830 G5/pic5.jpg",
+            ],
+    title: 'HP Elitebok 830 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP 745 G5,/pic1.jpg",
+        "Stock/HP 745 G5,/pic2.jpg",
+        "Stock/HP 745 G5,/pic3.jpg",
+        "Stock/HP 745 G5,/pic4.jpg",
+        "Stock/HP 745 G5,/pic5.jpg",
+            ],
+    title: 'HP Elitebok 745 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP 830 G5/pic1.jpg",
+        "Stock/HP 830 G5/pic2.jpg",
+        "Stock/HP 830 G5/pic3.jpg",
+        "Stock/HP 830 G5/pic4.jpg",
+        "Stock/HP 830 G5/pic5.jpg",
+            ],
+    title: 'HP Elitebok 745 G6',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/HP 430, G5/pic1.jpg",
+        "Stock/HP 430, G5/pic2.jpg",
+        "Stock/HP 430, G5/pic3.jpg",
+        "Stock/HP 430, G5/pic4.png",
+        "Stock/HP 430, G5/pic5.jpg",
+            ],
+    title: 'HP Elitebok 430 G5',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/DELL 7390/pic1.jpg",
+        "Stock/DELL 7390/pic2.jpg",
+        "Stock/DELL 7390/pic3.jpg",
+        "Stock/DELL 7390/pic4.jpg",
+        "Stock/DELL 7390/pic5.jpg",
+            ],
+    title: 'DELL 7390',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/DELL 5490/pic1.jpg",
+        "Stock/DELL 5490/pic2.jpg",
+        "Stock/DELL 5490/pic2.png",
+        "Stock/DELL 5490/pic3.jpg",
+        "Stock/DELL 5490/pic4.jpg",
+        "Stock/DELL 5490/pic5.jpg",
+        "Stock/DELL 5490/pic6.jpg",
+            ],
+    title: 'DELL 5490',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+    "Stock/DELL 3300/pic1.jpg",
+    "Stock/DELL 3300/pic2.jpg",
+    "Stock/DELL 3300/pic3.jpg",
+    "Stock/DELL 3300/pic4.jpg",
+    "Stock/DELL 3300/pic5.jpg",
+            ],
+    title: 'DELL 330',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+{
+    category: 'laptops',
+    images: [
+        "Stock/Acer Chromebook/pic4.webp",
+        "Stock/Acer Chromebook/pic2.webp",
+        "Stock/Acer Chromebook/pic 1.webp",
+        "Stock/Acer Chromebook/pic3.webp",
+            ],
+    title: 'Acer Chromebook',
+    description: 'Type-C cable',
+    price: 'KSh 16,500',
+    stock: 'In Stock:3'
+},
+
+
 
 
     
