@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #5a4a42; /* Warm dark brown */
-    background-color: #fff9f5; /* Very light peachy background */
+    color: #5a4a42;
+    background-color: #fff9f5;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Rich red gradient */
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -36,14 +36,13 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    /* Removed justify-content: space-between for now */
 }
 
 .branding {
     display: flex;
     align-items: center;
     text-decoration: none;
-    flex-grow: 1; /* Allow branding to take up available space */
+    flex-grow: 1;
 }
 
 .branding:hover {
@@ -72,15 +71,14 @@ body {
     white-space: nowrap;
 }
 
-nav { /* Target the nav element */
-    /* No specific positioning needed if branding takes space */
+nav {
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    margin-left: auto; /* Push the ul to the right */
+    margin-left: auto;
 }
 
 nav ul li {
@@ -367,13 +365,13 @@ footer a[href^="tel"]:hover {
     .header-container {
         flex-direction: column;
         text-align: center;
-        align-items: center; /* Center items in column layout */
+        align-items: center;
     }
 
     .branding {
         margin-bottom: 10px;
-        justify-content: center; /* Center branding items */
-        flex-grow: 0; /* Reset flex-grow on mobile */
+        justify-content: center;
+        flex-grow: 0;
     }
 
     .logo {
@@ -387,14 +385,14 @@ footer a[href^="tel"]:hover {
     nav {
         width: 100%;
         display: flex;
-        justify-content: center; /* Center nav items on mobile */
+        justify-content: center;
         margin-top: 10px;
     }
 
     nav ul {
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: 0; /* Reset margin on mobile */
+        margin-left: 0;
     }
 
 
@@ -546,6 +544,11 @@ footer a[href^="tel"]:hover {
 .featured {
     animation-delay: 0.1s;
 }
+
+footer {
+    animation-delay: 0.2s;
+}
+
 
 footer {
     animation-delay: 0.2s;
