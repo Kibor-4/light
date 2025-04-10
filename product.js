@@ -392,6 +392,17 @@ const productsData = [
     price: 'KSh 4,000',
     stock: 'In Stock:5'
 },
+{
+    category: 'accessories',
+    images: [
+        "Stock/Apple 60 W usb c/pic 1.png",
+        "Stock/Apple 60 W usb c/pic2.png",
+           ],
+    title: ' Apple 60W USB C',
+    description: 'Charger',
+    price: 'KSh 800',
+    stock: 'In Stock:5'
+},
 
     
 ];
