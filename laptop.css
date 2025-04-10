@@ -1,4 +1,4 @@
-/* product.css (or your main CSS file - you might rename this to 'style.css' to use across pages) */
+/* product.css (or your main CSS file) */
 
 /* Base Body Styles */
 body {
@@ -47,8 +47,10 @@ header {
     opacity: 0.9;
 }
 
+.branding a,
 .branding a:visited {
     color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -107,13 +109,18 @@ nav.navlist ul li a:hover {
     .header-container {
         flex-direction: column;
         align-items: center;
-        position: static;
         text-align: center;
+        position: static;
     }
 
     .branding {
         margin-bottom: 15px;
         justify-content: center;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 5px;
     }
 
     nav.navlist {
@@ -257,21 +264,21 @@ nav.navlist ul li a:hover {
     font-size: 0.95rem;
     line-height: 1.6;
 }
-.price{
-    color:rgba(192, 57, 43, 0.9);
+
+.price {
+    color: rgba(192, 57, 43, 0.9);
 }
 
-
- .stock {
-        display: inline-block;
-        padding: 0.35rem 1rem;
-        background: #d1fae5;
-        color: #10b981;
-        border-radius: 50px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        align-self: flex-start;
-    }
+.stock {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    background: #d1fae5;
+    color: #10b981;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
 
 /* Featured badge */
 .featured-badge {
@@ -287,14 +294,13 @@ nav.navlist ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 2;
 }
-/* laptop.css (or your main CSS file) */
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #c0392b, #a5281b); /* Deep red gradient */
+    background: linear-gradient(135deg, #c0392b, #a5281b);
     color: white;
-    padding: 3rem 0 1.5rem; /* Reduced padding */
-    margin-top: 4rem; /* Reduced margin */
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
     border-radius: 20px 20px 0 0;
     position: relative;
 }
@@ -323,7 +329,7 @@ footer .container {
 }
 
 .footer-section {
-    margin-bottom: 2rem; /* Add spacing between sections */
+    margin-bottom: 2rem;
 }
 
 .footer-section h3 {
@@ -359,7 +365,7 @@ footer .container {
 }
 
 .footer-section address {
-    font-style: normal; /* Reset italic style of address */
+    font-style: normal;
 }
 
 .footer-section address p {
@@ -385,7 +391,7 @@ footer .container {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive Design */
+/* Responsive Design for Footer */
 @media (max-width: 768px) {
     .footer-grid {
         grid-template-columns: 1fr;
@@ -413,8 +419,15 @@ footer .container {
 
 /* Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(15px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 footer {
@@ -461,11 +474,19 @@ footer {
 
 /* Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-.products, footer {
+.products,
+footer {
     animation: fadeIn 0.8s ease-out forwards;
 }
 
@@ -473,7 +494,7 @@ footer {
     animation-delay: 0.2s;
 }
 
-/* product choice buttons */
+/* Product choice buttons */
 .product-choice-container {
     text-align: center;
     margin: 20px 0;
@@ -483,25 +504,25 @@ footer {
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Match header gradient */
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     border: none;
-    border-radius: 20px; /* Match other button radius */
+    border-radius: 20px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease; /* Add transform for hover effect */
+    transition: background 0.3s ease,
+        transform 0.2s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-choice-button:hover {
-    background: linear-gradient(135deg, #c0392b, #a5281b); /* Darker red gradient on hover */
-    transform: translateY(-3px); /* Slightly lift on hover */
+    background: linear-gradient(135deg, #c0392b, #a5281b);
+    transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-/* Your existing CSS remains exactly the same */
-/* Only adding the product-specs styling that was missing */
+
+/* product specs */
 .product-specs {
     padding: 1.5rem;
-    
     background: #fff9f5;
     border-radius: 0 0 18px 18px;
 }
