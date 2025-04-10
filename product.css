@@ -6,32 +6,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #5a4a42; /* Warm dark brown */
-    background-color: #fff9f5; /* Very light peachy background */
-    padding-top: 60px; /* Account for fixed header height */
-}
-
-.container {
-    width: 85%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-/* Header Styles */
-/* product.css (or your main CSS file) */
-
-/* Base Body Styles */
-/* product.css */
-
-/* Base Body Styles */
-body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #5a4a42; /* Warm dark brown */
-    background-color: #fff9f5; /* Very light peachy background */
+    color: #5a4a42;
+    background-color: #fff9f5;
     padding-top: 60px; /* Account for fixed header height */
 }
 
@@ -44,11 +20,11 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Rich red gradient */
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    position: sticky; /* Or fixed, whichever you prefer */
+    position: sticky;
     top: 0;
     z-index: 100;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -57,7 +33,7 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    position: relative; /* Make this the positioning context for the nav */
+    position: relative;
     padding: 0 15px;
 }
 
@@ -71,8 +47,10 @@ header {
     opacity: 0.9;
 }
 
+.branding a,
 .branding a:visited {
     color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -96,8 +74,8 @@ header {
 nav.navlist {
     position: absolute;
     top: 50%;
-    right: 100px; /* Adjust this value to control the distance from the right */
-    transform: translateY(-50%); /* Vertically center the nav */
+    right: 100px;
+    transform: translateY(-50%);
 }
 
 nav.navlist ul {
@@ -131,73 +109,8 @@ nav.navlist ul li a:hover {
     .header-container {
         flex-direction: column;
         align-items: center;
-        position: static; /* Revert to static positioning in responsive view */
         text-align: center;
-    }
-
-    .branding {
-        margin-bottom: 15px;
-        justify-content: center;
-    }
-
-    nav.navlist {
-        position: static; /* Revert to static positioning */
-        transform: translateY(0); /* Reset vertical centering */
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    nav.navlist ul {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    nav.navlist ul li {
-        margin: 0 10px 10px;
-    }
-}
-
-/* ... rest of your CSS ... */
-/* Responsive Design for Header */
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .branding {
-        margin-bottom: 15px;
-        justify-content: center;
-    }
-
-    nav.navlist {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    nav.navlist ul {
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0; /* Reset margin in responsive view */
-    }
-
-    nav.navlist ul li {
-        margin: 0 10px 10px;
-    }
-}
-
-
-/* Responsive Design for Header */
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center; /* Center align header content on smaller screens */
+        position: static;
     }
 
     .branding {
@@ -206,22 +119,31 @@ nav.navlist ul li a:hover {
     }
 
     .logo {
-        margin-right: 0; /* Remove margin for centered logo */
-        margin-bottom: 5px; /* Add some space below logo */
+        margin-right: 0;
+        margin-bottom: 5px;
     }
 
-    nav ul {
+    nav.navlist {
+        position: static;
+        transform: translateY(0);
+        width: 100%;
+        display: flex;
         justify-content: center;
         margin-top: 15px;
-        flex-wrap: wrap;
     }
 
-    nav ul li {
+    nav.navlist ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    nav.navlist ul li {
         margin: 0 10px 10px;
     }
 }
 
-/* Products Section (Keep these styles) */
+/* Products Section */
 .products {
     padding: 4rem 0;
 }
@@ -240,7 +162,7 @@ nav.navlist ul li a:hover {
     display: block;
     width: 80px;
     height: 5px;
-    background: #e74c3c; /* Red underline */
+    background: #e74c3c;
     margin: 1.5rem auto 0;
     border-radius: 3px;
 }
@@ -282,9 +204,9 @@ nav.navlist ul li a:hover {
 }
 
 .product-slider-images img {
-    width: 300px; /* Set the desired width */
-    height: 300px; /* Set the desired height */
-    object-fit: contain; /* Or 'cover' depending on your preference */
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
     flex-shrink: 0;
     padding: 1.5rem;
     transition: transform 0.3s ease;
@@ -306,7 +228,7 @@ nav.navlist ul li a:hover {
 }
 
 .slider-nav button {
-    background: rgba(231, 76, 60, 0.7); /* Semi-transparent red */
+    background: rgba(231, 76, 60, 0.7);
     color: white;
     border: none;
     width: 36px;
@@ -320,7 +242,7 @@ nav.navlist ul li a:hover {
 }
 
 .slider-nav button:hover {
-    background: rgba(192, 57, 43, 0.9); /* Darker red */
+    background: rgba(192, 57, 43, 0.9);
     transform: scale(1.1);
 }
 
@@ -347,7 +269,7 @@ nav.navlist ul li a:hover {
 .price {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #e74c3c; /* Red price */
+    color: #e74c3c;
     margin: 0.75rem 0;
 }
 
@@ -378,12 +300,12 @@ nav.navlist ul li a:hover {
     z-index: 2;
 }
 
-/* Footer Styles (Keep these styles) */
+/* Footer Styles */
 footer {
-    background: linear-gradient(135deg, #c0392b, #a5281b); /* Deep red gradient */
+    background: linear-gradient(135deg, #c0392b, #a5281b);
     color: white;
-    padding: 3rem 0 1.5rem; /* Reduced padding */
-    margin-top: 4rem; /* Reduced margin */
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
     border-radius: 20px 20px 0 0;
     position: relative;
 }
@@ -412,7 +334,7 @@ footer .container {
 }
 
 .footer-section {
-    margin-bottom: 2rem; /* Add spacing between sections */
+    margin-bottom: 2rem;
 }
 
 .footer-section h3 {
@@ -448,7 +370,7 @@ footer .container {
 }
 
 .footer-section address {
-    font-style: normal; /* Reset italic style of address */
+    font-style: normal;
 }
 
 .footer-section address p {
@@ -488,6 +410,7 @@ footer .container {
     .footer-section h3 {
         font-size: 1.1rem;
     }
+
     .footer-section p,
     .footer-section address p {
         font-size: 0.9rem;
@@ -501,8 +424,15 @@ footer .container {
 
 /* Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(15px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 footer {
@@ -511,19 +441,20 @@ footer {
 }
 
 /* General Animations */
-.products, footer {
+.products,
+footer {
     animation: fadeIn 0.8s ease-out forwards;
 }
 
 .products {
-    animation-delay: 0s; /* Start product animation slightly earlier */
+    animation-delay: 0s;
 }
 
 footer {
     animation-delay: 0.2s;
 }
 
-/* Product Choice Buttons (Keep these if you have them) */
+/* Product Choice Buttons */
 .product-choice-container {
     text-align: center;
     margin: 20px 0;
@@ -533,17 +464,17 @@ footer {
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Match header gradient */
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     border: none;
-    border-radius: 20px; /* Match other button radius */
+    border-radius: 20px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease; /* Add transform for hover effect */
+    transition: background 0.3s ease, transform 0.2s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-choice-button:hover {
-    background: linear-gradient(135deg, #c0392b, #a5281b); /* Darker red gradient on hover */
-    transform: translateY(-3px); /* Slightly lift on hover */
+    background: linear-gradient(135deg, #c0392b, #a5281b);
+    transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
