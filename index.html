@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Leading Light ICT Solutions - Your trusted source for quality laptops, electronics, and accessories in Kenya. Best prices on MacBooks, Oraimo earbuds, and more.">
-    <meta name="keywords" content="ICT solutions Kenya, laptops Nairobi, MacBook Air Kenya, Oraimo earbuds, affordable electronics Kenya">
+    <meta name="description" content="Leading Light ICT Solutions - Quality laptops, electronics & accessories in Kenya. Best prices on MacBooks, Oraimo earbuds with warranty.">
+    <meta name="keywords" content="ICT Kenya, laptops Nairobi, MacBook Kenya, Oraimo earbuds, electronics Kenya">
     <meta name="author" content="Leading Light ICT Solutions">
-    <meta property="og:title" content="Leading Light ICT Solutions | Quality Electronics in Kenya">
-    <meta property="og:description" content="Your trusted source for quality laptops, electronics, and accessories in Kenya.">
+    <meta property="og:title" content="Leading Light ICT Solutions | Quality Electronics Kenya">
+    <meta property="og:description" content="Your trusted source for quality laptops & electronics in Kenya with warranty.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.leadinglightict.co.ke">
+    <meta property="og:image" content="https://www.leadinglightict.co.ke/Images/NEWLOGO.jpg">
     <link rel="canonical" href="https://www.leadinglightict.co.ke">
-    <title>Leading Light ICT Solutions | Quality Laptops & Electronics in Kenya</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Leading Light ICT Solutions | Quality Laptops & Electronics Kenya</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,78 +21,93 @@
         <div class="container">
             <div class="header-container">
                 <div class="branding">
-                    <div class="logo">
-                       <img src="Images/NEWLOGO.jpg" alt="Leading Light ICT Solutions Logo - Quality Electronics Kenya" width="120" height="60">
-                    </div>
-                    <h1 class="company-name">Leading Light ICT Solutions</h1>
+                    <a href="index.html" aria-label="Leading Light Home">
+                        <img src="Images/NEWLOGO.jpg" alt="Leading Light ICT Solutions Logo" width="120" height="60" loading="lazy">
+                        <h1 class="company-name">Leading Light ICT Solutions</h1>
+                    </a>
                 </div>
                 
                 <nav class="navlist" aria-label="Main navigation">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="accessories.html">Electronics Accessories</a></li>
-                        <li><a href="laptop.html">Laptops & Computers</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="laptop.html">Laptops</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Premium ICT Solutions in Kenya</h1>
-            <p>Your trusted source for quality laptops, electronics, and accessories at competitive prices</p>
-            <a href="accessories.html" class="btn">Shop Electronics Now</a>
-        </div>
-    </section>
-
-    <section class="featured">
-        <div class="container">
-            <h2>Featured Products</h2>
-            <div class="products-grid">
-                <!-- Featured product 1 -->
-                <div class="product-card" itemscope itemtype="https://schema.org/Product">
-                    <img src="Stock/mACBOOK AIR 2015/pic5.jpg" alt="MacBook Air 2015 - Premium Laptop in Kenya" width="300" height="200" itemprop="image">
-                    <h3 itemprop="name">MacBook Air 2015</h3>
-                    <p itemprop="price">KSh 53,000</p>
-                    <meta itemprop="priceCurrency" content="KES">
-                    <a href="laptop.html" class="btn" aria-label="View details of MacBook Air 2015">View Details</a>
-                </div>
-                <!-- Featured product 2 -->
-                <div class="product-card" itemscope itemtype="https://schema.org/Product">
-                    <img src="Stock/Oraimo free pods Lite/pic1.webp" alt="Oraimo Freepods Lite - Affordable Wireless Earbuds" width="300" height="200" itemprop="image">
-                    <h3 itemprop="name">Oraimo Freepods Lite</h3>
-                    <p itemprop="price">KSh 300</p>
-                    <meta itemprop="priceCurrency" content="KES">
-                    <a href="accessories.html" class="btn" aria-label="View details of Oraimo Freepods">View Details</a>
-                </div>
-                <!-- Featured product 3 -->
-                <div class="product-card" itemscope itemtype="https://schema.org/Product">
-                    <img src="Stock/Oraimo Space buds/pic2.webp" alt="Oraimo Space Buds - Noise Cancelling Headphones" width="300" height="200" itemprop="image">
-                    <h3 itemprop="name">Oraimo Space Buds</h3>
-                    <p itemprop="price">KSh 2,000</p>
-                    <meta itemprop="priceCurrency" content="KES">
-                    <a href="accessories.html" class="btn" aria-label="View details of Oraimo Space Buds">View Details</a>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Premium ICT Solutions in Kenya</h2>
+                <p>Quality laptops, electronics & accessories at competitive prices with warranty</p>
+                <div class="hero-buttons">
+                    <a href="laptop.html" class="btn">Shop Laptops</a>
+                    <a href="accessories.html" class="btn secondary">Shop Accessories</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="products-grid">
+                    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                        <img src="Stock/mACBOOK AIR 2015/pic5.jpg" alt="MacBook Air 2015 13-inch Laptop" width="300" height="200" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">MacBook Air 2015</h3>
+                        <p itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span itemprop="priceCurrency" content="KES">KSh</span> 
+                            <span itemprop="price">53,000</span>
+                        </p>
+                        <a href="laptop.html#macbook-air-2015" class="btn" aria-label="View MacBook Air 2015 details">View Details</a>
+                    </div>
+                    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                        <img src="Stock/Oraimo free pods Lite/pic1.webp" alt="Oraimo Freepods Lite Wireless Earbuds" width="300" height="200" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">Oraimo Freepods Lite</h3>
+                        <p itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span itemprop="priceCurrency" content="KES">KSh</span> 
+                            <span itemprop="price">2590</span>
+                        </p>
+                        <a href="accessories.html#oraimo-freepods" class="btn" aria-label="View Oraimo Freepods Lite details">View Details</a>
+                    </div>
+                    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+                        <img src="Stock/Oraimo Space buds/pic2.webp" alt="Oraimo Space Buds Noise Cancelling Earbuds" width="300" height="200" loading="lazy" itemprop="image">
+                        <h3 itemprop="name">Oraimo Space Buds</h3>
+                        <p itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span itemprop="priceCurrency" content="KES">KSh</span> 
+                            <span itemprop="price">5,500</span>
+                        </p>
+                        <a href="accessories.html#oraimo-spacebuds" class="btn" aria-label="View Oraimo Space Buds details">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer id="contact">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-section">
-                    <h3>About Leading Light</h3>
-                    <p>Your trusted ICT solutions provider in Kenya, offering quality electronics at affordable prices since 2025.</p>
+                    <h3>About Us</h3>
+                    <p>Leading The Way In I.C.T and Business Solutions</p>
                 </div>
                 <div class="footer-section">
-                    
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="laptop.html">Laptops</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Contact Us</h3>
-                    <p><strong>Email:</strong> leadinglightcomputers@gmail.com</p>
-                    <p><strong>Phone:</strong> 0702217039</p>
-                    <p><strong>Location:</strong> Kericho, Kenya</p>
+                    <h3>Contact</h3>
+                    <address>
+                        <p><a href="mailto:leadinglightcomputers@gmail.com">leadinglightcomputers@gmail.com</a></p>
+                        <p><a href="tel:+254702217039">0702 217 039</a></p>
+                        <p>Kericho, Kenya</p>
+                    </address>
                 </div>
             </div>
             <div class="copyright">
@@ -100,7 +117,6 @@
     </footer>
     
     <script>
-        // Update copyright year automatically
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>

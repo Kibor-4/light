@@ -214,6 +214,185 @@ const productsData = [
     price: 'KSh 3,500',
     stock: 'In Stock:1'
 },
+{
+    category: 'accessories',
+    images: [
+        "Stock/blue t h gamepad/pic3.webp",
+        "Stock/blue t h gamepad/pic2.jpg",
+        "Stock/blue t h gamepad/pic1.jpg",
+    ],
+    title: 'Bluetooth Gamepad',
+    description: 'Bluetooth Gaming Pad',
+    price: 'KSh 1,800',
+    stock: 'In Stock:1'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/samsung 25w pd adapter/pic3.jpg",
+        "Stock/samsung 25w pd adapter/pic2.jpg",
+        "Stock/samsung 25w pd adapter/pic1.jpg",
+    ],
+    title: 'samsung 25w pd adapter',
+    description: 'samsung 25w pd adapter',
+    price: 'KSh 2,400',
+    stock: 'In Stock:9'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/samsung 45w pd adapter/pic3.jpg",
+        "Stock/samsung 45w pd adapter/pic2.jpg",
+       " Stock/samsung 45w pd adapter/pic1.jpg",
+    ],
+    title: 'samsung 45w pd',
+    description: 'samsung 45w pd',
+    price: 'KSh 4,000',
+    stock: 'In Stock:3'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/samsung travel adapter/pic2.jpg",
+        "Stock/samsung travel adapter/pic1.jpg",
+    ],
+    title: 'samsung travel adapter',
+    description: 'samsung travel adapter',
+    price: 'KSh 3,700',
+    stock: 'In Stock:1'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/samsung usb c to usb c cable 3a/pic3.jpg",
+        "Stock/samsung usb c to usb c cable 3a/pic2.jpg",
+        "Stock/samsung usb c to usb c cable 3a/pic1.jpg",
+    ],
+    title: 'samsung usb c to usb c ',
+    description: 'samsung usb c to usb c ',
+    price: 'KSh 800',
+    stock: 'In Stock:3'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/samsung wireless battery pack 10000mah/pic1.jpg",
+        "Stock/samsung wireless battery pack 10000mah/pic2.jpg",
+        "Stock/samsung wireless battery pack 10000mah/pic3.jpg",
+            ],
+    title: 'samsung wireless battery pack 10000mah ',
+    description: 'samsung wireless battery pack 10000mah ',
+    price: 'KSh 7,000',
+    stock: 'In Stock:3'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/sandisk 32gb/pic1.jpg",
+        "Stock/sandisk 32gb/pic2.jpg",
+        "Stock/toshiba 32gb/pic2.jpg",
+        "Stock/toshiba 32gb/pic1.jpg",
+
+            ],
+    title: 'Flashdisk ',
+    description: '32GB ',
+    price: 'KSh 1,500',
+    stock: 'In Stock:4'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/hp 64gb/pic2.jpg",
+        "Stock/hp 64gb/pic1.jpg",
+
+            ],
+    title: 'HP Flashdisk ',
+    description: '64GB ',
+    price: 'KSh 2,000',
+    stock: 'In Stock:2'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/ex uk keyboard/pic2.jpg",
+        "Stock/ex uk keyboard/pic1.jpg",
+
+            ],
+    title: 'X-UK keyboard ',
+    description: 'Keyboard ',
+    price: 'KSh 700',
+    stock: 'In Stock:24'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/ex uk mouse/pic3.jpg",
+        "Stock/ex uk mouse/pic2.jpg",
+        "Stock/ex uk mouse/download.jpg",
+
+            ],
+    title: 'X-UK Mouse ',
+    description: 'Keyboard ',
+    price: 'KSh 500',
+    stock: 'In Stock:19'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/harddrive laptop/pic2.jpg",
+        "Stock/harddrive laptop/pic1.jpg",
+
+            ],
+    title: 'Laptop HDD ',
+    description: '500GB ',
+    price: 'KSh 4,000',
+    stock: 'In Stock:4'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/harddrive pc/pic2.jpg",
+        "Stock/harddrive pc/pic1.jpg",
+           ],
+    title: ' PC Harddrive ',
+    description: '8Gb,250GB',
+    price: 'KSh 4,000',
+    stock: 'In Stock:19'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/havit gamenote h2002d/pic1.jpg",
+           ],
+    title: ' Havit Gamenote',
+    description: 'Gaming Headphones',
+    price: 'KSh 7,000',
+    stock: 'In Stock:2'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/havit h628bt/pic1.jpg",
+        "Stock/havit h628bt/pic2.jpg",
+           ],
+    title: ' Havit headphones',
+    description: 'Headphones',
+    price: 'KSh 2,200',
+    stock: 'In Stock:5'
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/havit sk885bt/pic3.jpg",
+        "Stock/havit sk885bt/pic2.jpg",
+        "Stock/havit sk885bt/pic1.jpg",
+           ],
+    title: ' Havit bluetooth speaker',
+    description: 'RGB bluetooth speaker',
+    price: 'KSh 4,000',
+    stock: 'In Stock:5'
+},
+
     
 ];
 
