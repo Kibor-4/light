@@ -2,8 +2,8 @@ let products = [
     {
         title: " 2015 Apple Macbook Air",
         description: "A powerful laptop for all your needs.",
-        price: "$1200",
-        stock: "In Stock",
+        price: "KSh:53,000",
+        stock: "In Stock:1",
         images: [
             "Stock/mACBOOK AIR 2015/PIC1.jpg",
             "Stock/mACBOOK AIR 2015/PIC2.jpg",
@@ -19,31 +19,11 @@ let products = [
             screen: "13.3 inch FHD"
         }
     },
-    {
-        title: "HP X360 1030 G3",
-        description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency (e.g., "KES 50,000")
-        stock: "In Stock",
-        images: [
-            "Stock/HP X360 1030, G3/pic1.jpg",
-            "Stock/HP X360 1030, G3/pic2.jpg",
-            "Stock/HP X360 1030, G3/pic3.jpg",
-            "Stock/HP X360 1030, G3/pic4.jpg",
-            "Stock/HP X360 1030, G3/pic5.jpg"
-        ],
-        specs: {
-            cpu: "Intel Core i5",
-            ram: "16GB DDR4",
-            storage: "512GB SSD",
-            graphics: "Integrated: Intel® UHD Graphics 620",
-            screen: " 13.3 Inches (33.8 cm) FHD"
-        }
-    },
-    {
+        {
         title: "Lenovo Thinkpad Yoga 11e",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:16,500", // Consider adding currency
+        stock: "In Stock:3",
         images: [
             "Stock/lenovo thinkpad yoga 11e/pic5.jpg",
             "Stock/lenovo thinkpad yoga 11e/pic4.jpg",
@@ -63,8 +43,8 @@ let products = [
     {
         title: "HP EliteBook 1040 G3",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:39,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/hp1040 g3/pic4.webp",
             "Stock/hp1040 g3/pic4.jpg",
@@ -82,8 +62,8 @@ let products = [
         {
         title: "HP PROBOOK 635 G7",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:39,500", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP PROBOOK 635 G7 Ryzen 16256 ssd/pic5.jpg",
             "Stock/HP PROBOOK 635 G7 Ryzen 16256 ssd/pic4.jpg",
@@ -102,8 +82,8 @@ let products = [
     {
         title: "HP PROBOOK 445 G9 Ryzen 7",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:55,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
            "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic5.jpg",
             "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic4.jpg",
@@ -122,8 +102,8 @@ let products = [
     {
         title: "HP PROBOOK 440 G5",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:42,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP PROBOOK 440 G5/pic1.jpg",
             "Stock/HP PROBOOK 440 G5/pic2.webp",
@@ -143,8 +123,8 @@ let products = [
     {
         title: "HP ELITEBOOK 840 G5",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:35,000", // Consider adding currency
+        stock: "In Stock:2",
         images: [
             "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
             "Stock/HP ELITEBOOK 840 G5/pic5.jpg",
@@ -161,30 +141,10 @@ let products = [
         }
     },
     {
-        title: "HP ELITEBOOK 840 G5", // Duplicate title - is this intentional?
-        description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
-        images: [
-            "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
-            "Stock/HP ELITEBOOK 840 G5/pic5.jpg",
-            "Stock/HP ELITEBOOK 840 G5/pic3.jpg",
-            "Stock/HP ELITEBOOK 840 G5/pic2.jpg",
-            "Stock/HP ELITEBOOK 840 G5/pic1.jpg",
-        ],
-        specs: {
-            cpu: "Intel Core i5 @1.90GHz",
-            ram: "8GB DDR4",
-            storage: "256GB SSD",
-            graphics: " Intel® HD Graphics 520",
-            screen: "14 FHD ANTIGLARE SLIM LED"
-        }
-    },
-    {
         title: "HP ELITEBOOK 840 G2",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:28,500", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic5.jpg",
             "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic4.jpg",
@@ -201,10 +161,10 @@ let products = [
         }
     },
     {
-        title: "HP X360 1030 G3", // Duplicate title
+        title: "HP ELITEBOOK 830 G7 X360 ", // Duplicate title
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh: 57,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             " Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic5.jpg", // Note the leading space in the path
             "Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic4.png",
@@ -223,8 +183,8 @@ let products = [
     {
         title: "HP X360 1030 G3", // Duplicate title
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:45,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP 830 G5/pic1.jpg",
             "Stock/HP 830 G5/pic2.jpg",
@@ -243,8 +203,8 @@ let products = [
     {
         title: "HP Elitebook 745 G5",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:34,500", // Consider adding currency
+        stock: "In Stock:2",
         images: [
             "Stock/HP 745 G5,/pic1.jpg", // Note the comma in the path
             "Stock/HP 745 G5,/pic2.jpg", // Note the comma in the path
@@ -263,8 +223,8 @@ let products = [
     {
         title: "HP Probook 430 G5",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:28,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP 430, G5/pic1.jpg", // Note the comma in the path
             "Stock/HP 430, G5/pic2.jpg", // Note the comma in the path
@@ -283,8 +243,8 @@ let products = [
     {
         title: "DELL 7390",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:36,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/DELL 7390/pic1.jpg",
             "Stock/DELL 7390/pic2.jpg",
@@ -303,8 +263,8 @@ let products = [
     {
         title: "DELL 5490",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:40,500", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/DELL 5490/pic1.jpg",
             "Stock/DELL 5490/pic2.jpg",
@@ -325,8 +285,8 @@ let products = [
     {
         title: "DELL 3300",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:21,600", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/DELL 3300/pic1.jpg",
             "Stock/DELL 3300/pic2.jpg",
@@ -345,8 +305,8 @@ let products = [
     {
         title: "Acer Chromebook",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:17,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/Acer Chromebook/pic4.webp",
             "Stock/Acer Chromebook/pic2.webp",
@@ -364,8 +324,8 @@ let products = [
       {
         title: "DELL 7389",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:36,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/Dell 7389/pic 1.png", // Note the space in the filename
             "Stock/Dell 7389/pic2.png",
@@ -381,30 +341,12 @@ let products = [
             screen: "13.3” FHD (1920x1080) Touch X30"
         }
     },
-    {
-        title: "HP Elitebook 830 G6",
-        description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
-        images: [
-            "Stock/HP 830 G6/pic4.png",
-            "Stock/HP 830 G6/pic3.png",
-            "Stock/HP 830 G6/pic2.png",
-            "Stock/HP 830 G6/pic1.png",
-        ],
-        specs: {
-            cpu: "Intel Core \u00A0i5 8th gen", // Note the non-breaking space
-            ram: "8GB DDR4",
-            storage: "256GB SSD",
-            graphics: "Intel® UHD Graphics 620",
-            screen: "33.8 Cm (13.3inch)" // Note the capital 'C' in 'Cm'
-        }
-    },
+    
     {
         title: "HP Zbook 14u G5",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:36,000", // Consider adding currency
+        stock: "In Stock:1",
         images: [
             "Stock/HP z book 14u G5/pic1.jpg", // Note the lowercase 'z'
             "Stock/HP z book 14u G5/pic2.jpg", // Note the lowercase 'z'
@@ -423,8 +365,8 @@ let products = [
     {
         title: "HP EliteBook 840 G4",
         description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
+        price: "KSh:36,000", // Consider adding currency
+        stock: "In Stock:2",
         images: [
             "Stock/HP EliteBook 840, G4/pic4.jpg", // Note the comma
             "Stock/HP EliteBook 840, G4/pic3.jpg", // Note the comma
@@ -439,26 +381,7 @@ let products = [
             screen: "35.6 cm (14) Full HD"
         }
     },
-    {
-        title: "HP EliteBook 840 G4", // Duplicate title
-        description: "A powerful laptop for all your needs.",
-        price: "50,000", // Consider adding currency
-        stock: "In Stock",
-        images: [
-            "Stock/hp elitebook 640 g1/pic5.jpg", // Different model in path
-            "Stock/hp elitebook 640 g1/pic4.jpg", // Different model in path
-            "Stock/hp elitebook 640 g1/pic3.jpg", // Different model in path
-            "Stock/hp elitebook 640 g1/pic2.jpg", // Different model in path
-            "Stock/hp elitebook 640 g1/pic1.jpg", // Different model in path
-        ],
-        specs: {
-            cpu: "Intel Core i5-4300MU",
-            ram: "8 GB DDR3", // Note the space before 'GB'
-            storage: "500GB HDD",
-            graphics: "Intel® HD Graphics 4600",
-            screen: "35.6 cm (14) HD"
-        }
-    },
+
 ];
 
 
