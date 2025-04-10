@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #5a4a42; /* Warm dark brown */
-    background-color: #fff9f5; /* Very light peachy background */
+    color: #5a4a42;
+    background-color: #fff9f5;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Rich red gradient */
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -36,45 +36,52 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .branding {
     display: flex;
     align-items: center;
-    text-decoration: none; /* Remove underline from logo link */
+    text-decoration: none; /* Make sure the anchor tag has no underline */
+    flex-grow: 1;
 }
 
 .branding:hover {
     opacity: 0.9;
 }
 
-.branding a:visited {
-    color: white; /* Ensure visited links in the branding are also white */
+.branding a, .branding a:visited {
+    color: white;
+    text-decoration: none; /* Remove underline from the anchor */
 }
 
+
 .logo {
-    height: 60px; /* Adjusted to match HTML width */
+    height: 60px;
     width: auto;
     margin-right: 10px;
-    border-radius: 5px; /* Slightly less round for logo */
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .company-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em; /* Slightly larger company name */
+    font-size: 1.8em;
     font-weight: 700;
     margin: 0;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     white-space: nowrap;
+    text-decoration: none; /* Also remove underline here, just in case */
+}
+
+nav {
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    margin-left: auto;
 }
 
 nav ul li {
@@ -86,10 +93,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    padding: 10px 15px; /* Slightly more padding for nav links */
-    border-radius: 25px; /* More rounded nav links */
+    padding: 10px 15px;
+    border-radius: 25px;
     transition: all 0.3s ease;
-    font-size: 1em; /* Adjusted nav link font size */
+    font-size: 1em;
 }
 
 nav ul li a:hover {
@@ -100,79 +107,79 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #fde0e0, #f9c5c5); /* Soft red gradient */
+    background: linear-gradient(135deg, #fde0e0, #f9c5c5);
     text-align: center;
-    padding: 6rem 0; /* Slightly reduced padding */
-    border-radius: 0 0 20px 20px; /* Less rounded bottom */
-    margin-bottom: 2.5rem; /* Slightly reduced margin */
-    box-shadow: inset 0 -8px 15px rgba(0, 0, 0, 0.05); /* Adjusted shadow */
+    padding: 6rem 0;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 2.5rem;
+    box-shadow: inset 0 -8px 15px rgba(0, 0, 0, 0.05);
 }
 
 .hero h2 {
-    font-size: 2.5rem; /* Slightly smaller hero heading */
+    font-size: 2.5rem;
     margin-bottom: 0.8rem;
     color: #5a4a42;
     font-weight: 700;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .hero p {
     font-size: 1.1rem;
     color: #7a6a62;
-    margin-bottom: 1.5rem; /* Reduced margin */
-    max-width: 650px; /* Slightly narrower text area */
+    margin-bottom: 1.5rem;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.7; /* Slightly tighter line height */
+    line-height: 1.7;
 }
 
 .hero-buttons {
     display: flex;
     justify-content: center;
-    gap: 0.8rem; /* Reduced gap */
+    gap: 0.8rem;
 }
 
 .btn {
     display: inline-block;
-    background: #e74c3c; /* Vibrant red button */
+    background: #e74c3c;
     color: white;
-    padding: 0.8rem 1.8rem; /* Slightly smaller button padding */
-    border-radius: 40px; /* More rounded buttons */
+    padding: 0.8rem 1.8rem;
+    border-radius: 40px;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 10px rgba(231, 76, 60, 0.4); /* Adjusted shadow */
+    box-shadow: 0 3px 10px rgba(231, 76, 60, 0.4);
     border: none;
     cursor: pointer;
-    font-size: 1rem; /* Adjusted button font size */
+    font-size: 1rem;
 }
 
 .btn:hover {
-    background: #c0392b; /* Darker red */
-    transform: translateY(-2px); /* Reduced lift on hover */
-    box-shadow: 0 5px 15px rgba(192, 57, 43, 0.5); /* Adjusted shadow */
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(192, 57, 43, 0.5);
 }
 
 .btn.secondary {
     background: #fff;
     color: #e74c3c;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn.secondary:hover {
     background: #f0f0f0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adjusted shadow */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Featured Products Section */
 .featured {
-    padding: 3.5rem 0; /* Reduced padding */
+    padding: 3.5rem 0;
 }
 
 .featured h2 {
     text-align: center;
-    font-size: 2.2rem; /* Slightly smaller featured heading */
-    margin-bottom: 2.5rem; /* Reduced margin */
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
     color: #5a4a42;
     position: relative;
     font-weight: 700;
@@ -181,110 +188,110 @@ nav ul li a:hover {
 .featured h2::after {
     content: '';
     display: block;
-    width: 60px; /* Shorter underline */
-    height: 4px; /* Thinner underline */
-    background: #e74c3c; /* Red underline */
-    margin: 1rem auto 0; /* Reduced margin */
-    border-radius: 2px; /* Less rounded underline */
+    width: 60px;
+    height: 4px;
+    background: #e74c3c;
+    margin: 1rem auto 0;
+    border-radius: 2px;
 }
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Slightly smaller min width */
-    gap: 2rem; /* Reduced gap */
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
 }
 
 .product-card {
     background: white;
-    border-radius: 15px; /* Less rounded corners */
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Adjusted shadow */
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Slightly faster transition */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-align: center;
     position: relative;
-    border: 1px solid rgba(231, 76, 60, 0.15); /* Lighter border */
+    border: 1px solid rgba(231, 76, 60, 0.15);
 }
 
 .product-card:hover {
-    transform: translateY(-8px); /* Reduced lift on hover */
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
     width: 100%;
-    height: 180px; /* Reduced image height */
+    height: 180px;
     object-fit: contain;
-    padding: 1rem; /* Reduced padding */
+    padding: 1rem;
     background: #fff9f5;
     border-bottom: 1px solid #f3e0da;
-    transition: transform 0.2s ease; /* Faster image transition */
+    transition: transform 0.2s ease;
 }
 
 .product-card:hover img {
-    transform: scale(1.03); /* Reduced scale on hover */
+    transform: scale(1.03);
 }
 
 .product-card h3 {
-    font-size: 1.2rem; /* Smaller product title */
-    margin-top: 1rem; /* Reduced margin */
+    font-size: 1.2rem;
+    margin-top: 1rem;
     color: #5a4a42;
-    padding: 0 0.8rem; /* Reduced padding */
+    padding: 0 0.8rem;
 }
 
 .product-card p {
     color: #7a6a62;
-    margin: 0.8rem 0; /* Reduced margin */
-    padding: 0 0.8rem; /* Reduced padding */
-    font-size: 0.95rem; /* Slightly smaller price text */
+    margin: 0.8rem 0;
+    padding: 0 0.8rem;
+    font-size: 0.95rem;
 }
 
 .price {
     display: block;
-    font-size: 1.2rem; /* Slightly smaller price */
+    font-size: 1.2rem;
     font-weight: 700;
-    color: #e74c3c; /* Red price */
-    margin: 0.8rem 0; /* Reduced margin */
+    color: #e74c3c;
+    margin: 0.8rem 0;
 }
 
 .product-card .btn {
-    font-size: 0.9rem; /* Smaller "View Details" button */
-    padding: 0.6rem 1.2rem; /* Smaller button padding */
-    border-radius: 30px; /* More rounded button */
-    margin-bottom: 1rem; /* Added margin at the bottom */
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
 }
 
 /* Featured badge */
 .product-card::before {
     content: 'Featured';
     position: absolute;
-    top: 10px; /* Closer to the top */
-    right: 10px; /* Closer to the right */
+    top: 10px;
+    right: 10px;
     background: #e74c3c;
     color: white;
-    padding: 4px 8px; /* Smaller padding */
-    border-radius: 15px; /* More rounded badge */
-    font-size: 0.7rem; /* Smaller font size */
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 0.7rem;
     font-weight: 600;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Smaller shadow */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #c0392b, #a5281b); /* Deep red gradient */
+    background: linear-gradient(135deg, #c0392b, #a5281b);
     color: white;
-    padding: 3rem 0 1.5rem; /* Reduced padding */
-    margin-top: 5rem; /* Reduced top margin */
-    border-radius: 20px 20px 0 0; /* Less rounded top */
+    padding: 3rem 0 1.5rem;
+    margin-top: 5rem;
+    border-radius: 20px 20px 0 0;
     position: relative;
 }
 
 footer::before {
     content: '';
     position: absolute;
-    top: -20px; /* Closer to the top */
+    top: -20px;
     left: 0;
     right: 0;
-    height: 20px; /* Shorter wave */
+    height: 20px;
     background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="%23c0392b" opacity=".25"/><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" fill="%23c0392b" opacity=".5"/><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%23c0392b"/></svg>');
     background-size: cover;
 }
@@ -295,24 +302,24 @@ footer .container {
 
 footer .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller min width */
-    gap: 1.5rem; /* Reduced gap */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
     text-align: left;
-    margin-bottom: 1.5rem; /* Reduced margin */
+    margin-bottom: 1.5rem;
 }
 
 footer .footer-section h3 {
-    font-size: 1.2rem; /* Smaller heading */
-    margin-bottom: 0.8rem; /* Reduced margin */
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 0.4rem; /* Reduced padding */
+    padding-bottom: 0.4rem;
 }
 
 footer .footer-section p,
 footer .footer-section address {
-    font-size: 0.95rem; /* Smaller text */
+    font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6; /* Tighter line height */
+    line-height: 1.6;
 }
 
 footer .footer-section ul {
@@ -321,7 +328,7 @@ footer .footer-section ul {
 }
 
 footer .footer-section ul li {
-    margin-bottom: 0.6rem; /* Reduced margin */
+    margin-bottom: 0.6rem;
 }
 
 footer .footer-section ul li a {
@@ -329,7 +336,7 @@ footer .footer-section ul li a {
     text-decoration: none;
     transition: all 0.3s ease;
     font-weight: 600;
-    font-size: 0.9rem; /* Smaller link text */
+    font-size: 0.9rem;
 }
 
 footer .footer-section ul li a:hover {
@@ -350,8 +357,8 @@ footer a[href^="tel"]:hover {
 }
 
 .copyright {
-    margin-top: 2rem; /* Reduced margin */
-    font-size: 0.8rem; /* Smaller copyright text */
+    margin-top: 2rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
@@ -361,176 +368,186 @@ footer a[href^="tel"]:hover {
     .header-container {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     .branding {
-        margin-bottom: 10px; /* Reduced margin */
+        margin-bottom: 10px;
         justify-content: center;
+        flex-grow: 0;
     }
 
     .logo {
-        height: 50px; /* Slightly smaller logo on mobile */
+        height: 50px;
     }
 
     .company-name {
-        font-size: 1.5em; /* Smaller company name on mobile */
+        font-size: 1.5em;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
     }
 
     nav ul {
         justify-content: center;
-        margin-top: 10px; /* Reduced margin */
         flex-wrap: wrap;
+        margin-left: 0;
     }
 
+
     nav ul li {
-        margin: 0 8px 8px; /* Reduced margin */
+        margin: 0 8px 8px;
     }
 
     nav ul li a {
-        font-size: 0.9em; /* Smaller nav link font */
-        padding: 8px 12px; /* Smaller padding */
-        border-radius: 20px; /* More rounded */
+        font-size: 0.9em;
+        padding: 8px 12px;
+        border-radius: 20px;
     }
 
     .hero {
-        padding: 4rem 0; /* Further reduced padding */
-        border-radius: 0 0 15px 15px; /* Less rounded */
-        margin-bottom: 2rem; /* Reduced margin */
+        padding: 4rem 0;
+        border-radius: 0 0 15px 15px;
+        margin-bottom: 2rem;
     }
 
     .hero h2 {
-        font-size: 2rem; /* Smaller hero heading */
-        margin-bottom: 0.6rem; /* Reduced margin */
+        font-size: 2rem;
+        margin-bottom: 0.6rem;
     }
 
     .hero p {
-        font-size: 1rem; /* Smaller hero text */
-        margin-bottom: 1.2rem; /* Reduced margin */
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
     }
 
     .hero-buttons {
         flex-direction: column;
         align-items: center;
-        gap: 0.6rem; /* Reduced gap */
+        gap: 0.6rem;
     }
 
     .btn {
-        width: 90%; /* Wider buttons on mobile */
-        margin-bottom: 0.8rem; /* Reduced margin */
-        font-size: 0.95rem; /* Slightly smaller font */
-        padding: 0.7rem 1.5rem; /* Smaller padding */
-        border-radius: 30px; /* More rounded */
+        width: 90%;
+        margin-bottom: 0.8rem;
+        font-size: 0.95rem;
+        padding: 0.7rem 1.5rem;
+        border-radius: 30px;
     }
 
     .featured h2 {
-        font-size: 2rem; /* Smaller featured heading */
-        margin-bottom: 2rem; /* Reduced margin */
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 
     .featured h2::after {
-        width: 50px; /* Shorter underline */
-        height: 3px; /* Thinner underline */
-        margin: 0.8rem auto 0; /* Reduced margin */
+        width: 50px;
+        height: 3px;
+        margin: 0.8rem auto 0;
     }
 
     .products-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem; /* Reduced gap */
+        gap: 1.5rem;
     }
 
     .product-card {
-        border-radius: 12px; /* Less rounded */
+        border-radius: 12px;
     }
 
     .product-card img {
-        height: 160px; /* Smaller image height */
-        padding: 0.8rem; /* Reduced padding */
+        height: 160px;
+        padding: 0.8rem;
     }
 
     .product-card h3 {
-        font-size: 1.1rem; /* Smaller title */
-        margin-top: 0.8rem; /* Reduced margin */
+        font-size: 1.1rem;
+        margin-top: 0.8rem;
     }
 
     .product-card p {
-        font-size: 0.9rem; /* Smaller text */
-        margin: 0.6rem 0; /* Reduced margin */
+        font-size: 0.9rem;
+        margin: 0.6rem 0;
     }
 
     .price {
-        font-size: 1.1rem; /* Smaller price */
-        margin: 0.6rem 0; /* Reduced margin */
+        font-size: 1.1rem;
+        margin: 0.6rem 0;
     }
 
     .product-card .btn {
-        font-size: 0.85rem; /* Smaller button */
-        padding: 0.5rem 1rem; /* Smaller padding */
-        border-radius: 25px; /* More rounded */
-        margin-bottom: 0.8rem; /* Reduced margin */
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        margin-bottom: 0.8rem;
     }
 
     footer {
-        padding: 2.5rem 0 1.2rem; /* Further reduced padding */
-        border-radius: 15px 15px 0 0; /* Less rounded */
-        margin-top: 4rem; /* Reduced margin */
+        padding: 2.5rem 0 1.2rem;
+        border-radius: 15px 15px 0 0;
+        margin-top: 4rem;
     }
 
     footer::before {
-        height: 15px; /* Shorter wave */
-        top: -15px; /* Closer to top */
+        height: 15px;
+        top: -15px;
     }
 
     footer .footer-grid {
         grid-template-columns: 1fr;
-        gap: 1rem; /* Reduced gap */
+        gap: 1rem;
         text-align: center;
-        margin-bottom: 1rem; /* Reduced margin */
+        margin-bottom: 1rem;
     }
 
     footer .footer-section {
-        margin-bottom: 1.5rem; /* Reduced margin */
+        margin-bottom: 1.5rem;
     }
 
     footer .footer-section h3 {
-        font-size: 1.1rem; /* Smaller heading */
-        margin-bottom: 0.6rem; /* Reduced margin */
-        padding-bottom: 0.3rem; /* Reduced padding */
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+        padding-bottom: 0.3rem;
     }
 
     footer .footer-section p,
     footer .footer-section address {
-        font-size: 0.9rem; /* Smaller text */
-        line-height: 1.5; /* Tighter line height */
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 
     footer .footer-section ul li {
-        margin-bottom: 0.5rem; /* Reduced margin */
+        margin-bottom: 0.5rem;
     }
 
     footer .footer-section ul li a {
-        font-size: 0.85rem; /* Smaller link text */
+        font-size: 0.85rem;
     }
 
     .copyright {
-        margin-top: 1.5rem; /* Reduced margin */
-        font-size: 0.75rem; /* Smaller copyright text */
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
     }
 }
 
 /* Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); } /* Reduced initial movement */
+    from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
 .hero, .featured, footer {
-    animation: fadeIn 0.6s ease-out forwards; /* Slightly faster animation */
+    animation: fadeIn 0.6s ease-out forwards;
 }
 
 .featured {
-    animation-delay: 0.1s; /* Adjusted delay */
+    animation-delay: 0.1s;
 }
 
 footer {
-    animation-delay: 0.2s; /* Adjusted delay */
+    animation-delay: 0.2s;
 }

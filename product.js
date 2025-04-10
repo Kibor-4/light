@@ -47,7 +47,7 @@ const productsData = [
         title: 'Oraimo Space Buds Pro',
         description: 'Listen to music you love unbothered',
         price: 'KSh 5,500',
-        stock: 'In Stock: 1'
+        
     },
      {
         category: 'accessories',
@@ -58,7 +58,7 @@ const productsData = [
         title: 'Oraimo Car charger',
         description: 'Car charger',
         price: 'KSh 700',
-        stock: 'In Stock: 3'
+        
     },
     {
         category: 'accessories',
@@ -70,7 +70,7 @@ const productsData = [
         title: 'Oraimo Car modulator',
         description: 'Car charger',
         price: 'KSh 1,500',
-        stock: 'In Stock: 1'
+        
     },
     {
         category: 'accessories',
@@ -86,7 +86,7 @@ const productsData = [
         title: 'Oraimo Free Pods Lite',
         description: 'Listen to music you love unbothered',
         price: 'KSh 2,500',
-        stock: 'In Stock: 1'
+        
     },
     {
         category: 'accessories',
@@ -101,7 +101,7 @@ const productsData = [
         title: 'Oraimo Free Pods Lite',
         description: 'Listen to music you love unbothered',
         price: 'KSh 350',
-        stock: 'In Stock: 10'
+        
     },
     {
         category: 'accessories',
@@ -113,7 +113,7 @@ const productsData = [
         title: 'Oraimo Powercube',
         description: 'Normal charger',
         price: 'KSh 800',
-        stock: 'In Stock:11'
+        
     },
   {
     category: 'accessories',
@@ -130,7 +130,7 @@ const productsData = [
     title: 'Oraimo Powerbank',
     description: '10,000mAh',
     price: 'KSh 2,700',
-    stock: 'In Stock:1'
+    
 },
 {
     category: 'accessories',
@@ -148,7 +148,7 @@ const productsData = [
     title: 'Oraimo Powerbank',
     description: '20,000mAh',
     price: 'KSh 4,000',
-    stock: 'In Stock:1'
+    
 },
 {
     category: 'accessories',
@@ -168,7 +168,7 @@ const productsData = [
     title: 'Oraimo Necklace lite',
     description: 'Listen to your music on the go ',
     price: 'KSh 2,250',
-    stock: 'In Stock:1'
+    
 },
 
 {
@@ -184,7 +184,7 @@ const productsData = [
     title: 'Oraimo Iphone lightning Cable',
     description: 'Iphone charger',
     price: 'KSh 500',
-    stock: 'In Stock:12'
+    
 },
 {
     category: 'accessories',
@@ -194,7 +194,7 @@ const productsData = [
     title: 'Oraimo Type C',
     description: 'Type-C cable',
     price: 'KSh 450',
-    stock: 'In Stock:8'
+    
 },
 {
     category: 'accessories',
@@ -212,7 +212,7 @@ const productsData = [
     title: 'Oraimo Watch 5 Ultra',
     description: 'Type-C cable',
     price: 'KSh 3,500',
-    stock: 'In Stock:1'
+    
 },
 {
     category: 'accessories',
@@ -224,7 +224,7 @@ const productsData = [
     title: 'Bluetooth Gamepad',
     description: 'Bluetooth Gaming Pad',
     price: 'KSh 1,800',
-    stock: 'In Stock:1'
+    
 },
 {
     category: 'accessories',
@@ -236,7 +236,7 @@ const productsData = [
     title: 'samsung 25w pd adapter',
     description: 'samsung 25w pd adapter',
     price: 'KSh 2,400',
-    stock: 'In Stock:9'
+    
 },
 {
     category: 'accessories',
@@ -248,7 +248,7 @@ const productsData = [
     title: 'samsung 45w pd',
     description: 'samsung 45w pd',
     price: 'KSh 4,000',
-    stock: 'In Stock:3'
+    
 },
 {
     category: 'accessories',
@@ -259,7 +259,7 @@ const productsData = [
     title: 'samsung travel adapter',
     description: 'samsung travel adapter',
     price: 'KSh 3,700',
-    stock: 'In Stock:1'
+    
 },
 {
     category: 'accessories',
@@ -271,7 +271,7 @@ const productsData = [
     title: 'samsung usb c to usb c ',
     description: 'samsung usb c to usb c ',
     price: 'KSh 800',
-    stock: 'In Stock:3'
+    
 },
 {
     category: 'accessories',
@@ -283,7 +283,7 @@ const productsData = [
     title: 'samsung wireless battery pack 10000mah ',
     description: 'samsung wireless battery pack 10000mah ',
     price: 'KSh 7,000',
-    stock: 'In Stock:3'
+    
 },
 {
     category: 'accessories',
@@ -297,7 +297,7 @@ const productsData = [
     title: 'Flashdisk ',
     description: '32GB ',
     price: 'KSh 1,500',
-    stock: 'In Stock:4'
+    
 },
 {
     category: 'accessories',
@@ -309,7 +309,7 @@ const productsData = [
     title: 'HP Flashdisk ',
     description: '64GB ',
     price: 'KSh 2,000',
-    stock: 'In Stock:2'
+    
 },
 {
     category: 'accessories',
@@ -321,7 +321,7 @@ const productsData = [
     title: 'X-UK keyboard ',
     description: 'Keyboard ',
     price: 'KSh 700',
-    stock: 'In Stock:24'
+    
 },
 {
     category: 'accessories',
@@ -334,7 +334,7 @@ const productsData = [
     title: 'X-UK Mouse ',
     description: 'Keyboard ',
     price: 'KSh 500',
-    stock: 'In Stock:19'
+    
 },
 {
     category: 'accessories',
@@ -346,7 +346,7 @@ const productsData = [
     title: 'Laptop HDD ',
     description: '500GB ',
     price: 'KSh 4,000',
-    stock: 'In Stock:4'
+    
 },
 {
     category: 'accessories',
@@ -357,7 +357,7 @@ const productsData = [
     title: ' PC Harddrive ',
     description: '8Gb,250GB',
     price: 'KSh 4,000',
-    stock: 'In Stock:19'
+    
 },
 {
     category: 'accessories',
@@ -367,7 +367,7 @@ const productsData = [
     title: ' Havit Gamenote',
     description: 'Gaming Headphones',
     price: 'KSh 7,000',
-    stock: 'In Stock:2'
+    
 },
 {
     category: 'accessories',
@@ -378,7 +378,7 @@ const productsData = [
     title: ' Havit headphones',
     description: 'Headphones',
     price: 'KSh 2,200',
-    stock: 'In Stock:5'
+    
 },
 {
     category: 'accessories',
@@ -390,7 +390,7 @@ const productsData = [
     title: ' Havit bluetooth speaker',
     description: 'RGB bluetooth speaker',
     price: 'KSh 4,000',
-    stock: 'In Stock:5'
+    
 },
 {
     category: 'accessories',
@@ -401,7 +401,7 @@ const productsData = [
     title: ' Apple 60W USB C',
     description: 'Charger',
     price: 'KSh 800',
-    stock: 'In Stock:5'
+    
 },
 
     
@@ -427,7 +427,7 @@ function createProductCard(product) {
         <h3>${product.title}</h3>
         <p>${product.description}</p>
         <p class="price">${product.price}</p>
-        <p class="stock">${product.stock}</p>
+        
     `;
 
     return card;
