@@ -556,3 +556,58 @@ footer {
     display: flex;
     flex-direction: column;
 }
+/* Add these styles to your laptop.css file */
+.social-links {
+    margin-top: 15px; /* Adjust spacing above the icons */
+    display: flex; /* Arrange icons in a row */
+    align-items: center; /* Vertically align icons */
+}
+
+.social-links a {
+    display: inline-flex; /* Make the link a flex container for centering the icon */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+    width: 35px; /* Adjust the width of the icon container */
+    height: 35px; /* Adjust the height of the icon container */
+    margin-right: 10px; /* Spacing between icons */
+    border-radius: 50%; /* Make the background circular */
+    background-color: #eee; /* Light background color for the icons */
+    color: #555; /* Default icon color */
+    font-size: 1.2em; /* Adjust the size of the icons */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transitions */
+}
+
+.social-links a:hover {
+    background-color: #007bff; /* Example hover background color (blue) */
+    color: #fff; /* White icon color on hover */
+}
+
+/* Specific colors for each platform (optional) */
+.social-links a.facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.social-links a.facebook:hover {
+    background-color: #1462c4;
+}
+
+.social-links a.twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.social-links a.twitter:hover {
+    background-color: #0c85d0;
+}
+
+.social-links a.gmail {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.social-links a.gmail:hover {
+    background-color: #c53929;
+}
+

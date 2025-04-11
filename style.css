@@ -551,3 +551,62 @@ footer a[href^="tel"]:hover {
 footer {
     animation-delay: 0.2s;
 }
+.social-links {
+    margin-top: 20px; /* Increased spacing above the icons */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align icons to the left */
+}
+
+.social-links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Slightly larger icon container */
+    height: 40px; /* Slightly larger icon container */
+    margin-right: 15px; /* Increased spacing between icons */
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray icon color */
+    font-size: 1.4em; /* Larger icon size */
+    text-decoration: none;
+    opacity: 0.8; /* Slightly transparent by default */
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease; /* More comprehensive transitions */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.social-links a:hover {
+    background-color: #007bff; /* Blue hover background */
+    color: #fff; /* White icon color on hover */
+    opacity: 1; /* Fully opaque on hover */
+    transform: scale(1.1); /* Slight scale-up on hover */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+/* Specific brand colors */
+.social-links a.facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.social-links a.facebook:hover {
+    background-color: #1462c4;
+}
+
+.social-links a.twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.social-links a.twitter:hover {
+    background-color: #0c85d0;
+}
+
+.social-links a.gmail {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.social-links a.gmail:hover {
+    background-color: #c53929;
+}
