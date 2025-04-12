@@ -1,0 +1,31 @@
+; Zone file for leadinglight.co.ke
+$TTL 3600        ; Default TTL (1 hour)
+
+@               IN  SOA   ns1.your-dns-provider.com. admin.leadinglight.co.ke. (
+                    2024041101  ; Serial (YYYYMMDD##)
+                    7200        ; Refresh (2 hours)
+                    3600        ; Retry (1 hour)
+                    1209600     ; Expire (2 weeks)
+                    3600        ; Minimum TTL (1 hour)
+                    )
+
+; Name Servers (replace with your actual DNS servers)
+@               IN  NS    ns1.your-dns-provider.com.
+@               IN  NS    ns2.your-dns-provider.com.
+
+; Base domain records
+@               IN  A     192.0.2.1          ; IPv4 for leadinglight.co.ke
+@               IN  AAAA  2001:db8::1        ; IPv6 for leadinglight.co.ke
+
+; www subdomain (choose either A/AAAA OR CNAME)
+www             IN  A     192.0.2.1          ; IPv4 for www (same as @)
+; www             IN  AAAA  2001:db8::1        ; IPv6 for www (optional)
+; OR use a CNAME to alias to the main domain:
+; www             IN  CNAME leadinglight.co.ke.
+
+; Mail records (if needed)
+@               IN  MX    10 mail.leadinglight.co.ke.
+mail            IN  A     192.0.2.2          ; Mail server IP
+
+; Additional records (optional)
+ftp             IN  CNAME leadinglight.co.ke. ; Alias for FTP
