@@ -18,7 +18,7 @@ body {
     padding: 0 15px;
 }
 
-/* Header Styles */
+/* Combined Header Styles */
 header {
     background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
@@ -30,17 +30,20 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+body {
+    padding-top: 60px; /* Ensure content doesn't hide behind sticky/fixed header */
+}
+
 .header-container {
     display: flex;
     align-items: center;
-    position: relative;
-    padding: 0 15px;
 }
 
 .branding {
     display: flex;
     align-items: center;
     text-decoration: none;
+    flex-grow: 1; /* Allows branding to take up available space, pushing nav to the right */
 }
 
 .branding:hover {
@@ -53,42 +56,59 @@ header {
     text-decoration: none;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo {
     height: 60px;
     width: auto;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.company-name-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
 }
 
 .company-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
     font-weight: 700;
-    margin: 0;
+    margin-left: 20px; /* Choose your preferred left margin */
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     white-space: nowrap;
 }
 
-nav.navlist {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
+.company-name.top-layer {
+    font-size: 1.8em;
+    margin-bottom: 2px;
 }
 
-nav.navlist ul {
+.company-name.bottom-layer {
+    font-size: 1em;
+    color: #ddd;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    margin-left: auto; /* Push navigation to the right */
 }
 
-nav.navlist ul li {
+nav ul li {
     margin-left: 25px;
+    position: relative; /* For potential dropdowns or other absolute positioning within list items */
 }
 
-nav.navlist ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -98,7 +118,7 @@ nav.navlist ul li a {
     font-size: 1em;
 }
 
-nav.navlist ul li a:hover {
+nav ul li a:hover {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);

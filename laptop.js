@@ -386,15 +386,19 @@ let products = [
 
 
 // Function to create product cards
-function createProductCards() {
-    const productGrid = document.getElementById('productGrid');
-    if (!productGrid) return;
+const productGrid = document.getElementById('productGrid');
+if (!productGrid) {
+    console.error("Product grid element not found!");
+}
 
-    // Clear existing content
+function createProductCards() {
+    if (!productGrid) return; // Exit if productGrid is null
+
     productGrid.innerHTML = '';
 
-    // Create a card for each product
-    products.forEach(product => {
+    const itemListElement = []; // For schema
+
+    products.forEach((product, index) => { // Added index
         let imagesHtml = product.images.map(img => `<img src="${img}" alt="${product.title}">`).join('');
 
         let specsHtml = Object.entries(product.specs).map(([key, value]) => {
@@ -425,7 +429,6 @@ function createProductCards() {
             <h3>${product.title}</h3>
             <p>${product.description}</p>
             <p class="price">${product.price}</p>
-            
             <div class="product-specs">
                 <h4>Specifications</h4>
                 ${specsHtml}
@@ -433,10 +436,27 @@ function createProductCards() {
         `;
 
         productGrid.appendChild(card);
+
+        // 9. Add Product Schema Dynamically
+        itemListElement.push({
+            "@type": "ListItem",
+            "position": index + 1,
+            "name": product.title,
+            "description": product.description,
+            "url": `product/${product.id}.html` // Create specific product pages!
+        });
     });
+
+    // Update Schema
+    const schemaElement = document.querySelector('script[type="application/ld+json"]');
+    if (schemaElement) {
+        const schemaData = JSON.parse(schemaElement.textContent);
+        schemaData.mainEntity.itemListElement = itemListElement;
+        schemaElement.textContent = JSON.stringify(schemaData);
+    }
 }
 
-// Improved slider functions
+// Improved slider functions (as you provided)
 function prevSlide(button) {
     const slider = button.closest('.product-slider');
     const imagesContainer = slider.querySelector('.product-slider-images');

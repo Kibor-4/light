@@ -17,20 +17,20 @@ body {
     padding: 0 15px;
 }
 
-/* Header Styles */
+/* Combined Header Styles */
 header {
     background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    position: sticky; /* Or fixed */
     top: 0;
     z-index: 100;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 60px; /* Ensure content doesn't hide behind sticky/fixed header */
 }
 
 .header-container {
@@ -41,52 +41,70 @@ body {
 .branding {
     display: flex;
     align-items: center;
-    text-decoration: none; /* Make sure the anchor tag has no underline */
-    flex-grow: 1;
+    text-decoration: none;
+    flex-grow: 1; /* Allows branding to take up available space, pushing nav to the right */
 }
 
 .branding:hover {
     opacity: 0.9;
 }
 
-.branding a, .branding a:visited {
+.branding a,
+.branding a:visited {
     color: white;
-    text-decoration: none; /* Remove underline from the anchor */
+    text-decoration: none;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
 
 .logo {
     height: 60px;
     width: auto;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.company-name-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
 }
 
 .company-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
     font-weight: 700;
-    margin: 0;
+    margin-left: 20px; /* Choose your preferred left margin */
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     white-space: nowrap;
-    text-decoration: none; /* Also remove underline here, just in case */
 }
 
-nav {
+.company-name.top-layer {
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+
+.company-name.bottom-layer {
+    font-size: 1em;
+    color: #ddd;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    margin-left: auto;
+    margin-left: auto; /* Push navigation to the right */
 }
 
 nav ul li {
     margin-left: 25px;
-    position: relative;
+    position: relative; /* For potential dropdowns or other absolute positioning within list items */
 }
 
 nav ul li a {
