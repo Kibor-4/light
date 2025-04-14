@@ -397,10 +397,11 @@ let products = [
             cpu: "AMD Ryzen™ 7 PRO",
             ram: "16GB DDR4",
             storage: "512GB SSD",
-            graphics: "AMD Radeon™ Vega 10 Graphics",
+            graphics:"AMD Radeon™ Vega 10 Graphics",
             screen: "14 inch FHD"
         }
     }
+
 
 ]
 

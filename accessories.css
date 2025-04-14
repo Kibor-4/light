@@ -60,73 +60,6 @@ body {
     text-decoration: none;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-}
-
-.logo {
-    height: 60px;
-    width: auto;
-    margin-right: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.company-name-container {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-}
-
-.company-name {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin-left: 20px;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    white-space: nowrap;
-}
-
-.company-name.top-layer {
-    font-size: 1.8em;
-    margin-bottom: 2px;
-}
-
-.company-name.bottom-layer {
-    font-size: 1em;
-    color: #ddd;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    margin-left: auto;
-}
-
-nav ul li {
-    margin-left: 25px;
-    position: relative;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 10px 15px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    font-size: 1em;
-}
-
-nav ul li a:hover {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
 
 /* Responsive Design for Header */
 @media (max-width: 768px) {
@@ -555,7 +488,7 @@ footer {
 }
 /* Sidebar styles */
 .sidebar {
-    width: 250px;
+    width: 100px;
     background-color: #f8f9fa;
     position: fixed;
     height: 100%;
