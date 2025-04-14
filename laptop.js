@@ -382,7 +382,7 @@ let products = [
         }
     },
     {
-        title: "HP Elitebook 745 G5",
+        title: "HP Elitebook 745 G6",
         description: "A powerful laptop for all your needs.",
         price: "KSh:40,000",
         category: "HP Laptops", // Added Category
