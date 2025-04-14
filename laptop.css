@@ -4,7 +4,7 @@
    ========================================================================== */
 
    body {
-    font-family: 'Roboto', sans-serif; /* Changed from Inter */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     color: #5a4a42;
@@ -39,7 +39,7 @@
 body {
     margin: 0;
     padding-top: 80px;
-    font-family: 'Roboto', sans-serif; /* Changed from Montserrat */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header styling */
@@ -103,7 +103,7 @@ header {
 
 .company-name.top-layer {
     font-size: 1.8em;
-    font-weight: 700; /* Adjusted for Roboto */
+    font-weight: 700;
     color: white;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     white-space: nowrap;
@@ -112,7 +112,7 @@ header {
 
 .company-name.bottom-layer {
     font-size: 1em;
-    font-weight: 500; /* Adjusted for Roboto */
+    font-weight: 500;
     color: #eee;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     white-space: nowrap;
@@ -189,7 +189,7 @@ header {
 /* Reset default margins */
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif; /* Changed from Montserrat */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Main section */
@@ -267,7 +267,7 @@ main {
 .products {
     flex: 1;
     margin-left: 260px;
-    padding: 0 10px; /* Reduced from 20px to minimize space */
+    padding: 0 10px;
 }
 
 .products h1 {
@@ -289,24 +289,6 @@ main {
     text-align: center;
 }
 
-.featured-products h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    color: #5a4a42;
-    font-weight: 700;
-    text-align: center;
-}
-
-.featured-products h2::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #e74c3c;
-    margin: 1rem auto 0;
-    border-radius: 2px;
-}
-
 /* Products grid */
 .products-grid {
     display: grid;
@@ -322,6 +304,7 @@ main {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     text-align: left;
+    padding: 20px;
 }
 
 .product-card:hover {
@@ -337,6 +320,7 @@ main {
     border-bottom: 1px solid #eee;
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 1rem;
 }
 
 .product-slider-images {
@@ -408,23 +392,18 @@ main {
     transform: scale(1.3);
 }
 
-/* Product content */
-.product-content {
-    padding: 30px;
-    text-align: left;
-}
-
+/* Product details */
 .product-card h3 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     color: #5a4a42;
-    font-weight: 700; /* Adjusted for Roboto */
+    font-weight: 700;
 }
 
 .product-card p {
     font-size: 1rem;
     color: #7a6a62;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     line-height: 1.7;
 }
 
@@ -432,9 +411,55 @@ main {
     font-size: 1.8rem;
     font-weight: 700;
     color: #e74c3c;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
 }
 
+/* Product specifications */
+.product-specs {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.product-specs h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #5a4a42;
+    margin-bottom: 0.8rem;
+}
+
+.product-specs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-specs li {
+    font-size: 0.95rem;
+    color: #7a6a62;
+    line-height: 1.6;
+    padding: 0.4rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.product-specs li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+    font-size: 1.2rem;
+}
+
+/* Fallback for non-list specs */
+.product-specs p {
+    font-size: 0.95rem;
+    color: #7a6a62;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+/* Add to cart button */
 .add-to-cart {
     display: inline-block;
     width: auto;
@@ -443,10 +468,11 @@ main {
     color: white;
     border: none;
     border-radius: 8px;
-    font-weight: 500; /* Adjusted for Roboto */
+    font-weight: 500;
     font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: 1.5rem;
 }
 
 .add-to-cart:hover {
@@ -463,8 +489,7 @@ main {
     margin-right: auto;
 }
 
-.faq-section h2 
-{
+.faq-section h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     color: #5a4a42;
@@ -490,7 +515,7 @@ main {
     margin-bottom: 0.5rem;
     color: #5a4a42;
     cursor: pointer;
-    font-weight: 700; /* Adjusted for Roboto */
+    font-weight: 700;
     transition: color 0.3s ease;
 }
 
@@ -518,7 +543,7 @@ main {
 
     .products {
         margin-left: 220px;
-        padding: 0 10px; /* Reduced from 20px */
+        padding: 0 10px;
     }
 
     .products-grid {
@@ -546,7 +571,7 @@ main {
 
     .products {
         margin-left: 0;
-        padding: 0 10px; /* Reduced from 15px */
+        padding: 0 10px;
     }
 
     .products-grid {
@@ -559,6 +584,10 @@ main {
 
     .slider-indicators {
         left: 15px;
+    }
+
+    .product-card {
+        padding: 15px;
     }
 
     .add-to-cart {
@@ -587,6 +616,19 @@ main {
     .slider-indicators {
         left: 15px;
     }
+
+    .product-card {
+        padding: 15px;
+    }
+
+    .product-specs h4 {
+        font-size: 1.1rem;
+    }
+
+    .product-specs li,
+    .product-specs p {
+        font-size: 0.9rem;
+    }
 }
 
 /* ==========================================================================
@@ -594,77 +636,185 @@ main {
    ========================================================================== */
 
 footer {
-    background: linear-gradient(135deg, #c0392b, #a5281b);
+    background: #c0392b; /* Solid color for simplicity */
     color: white;
-    padding: 3rem 0 1.5rem;
-    margin-top: 5rem;
-    border-radius: 20px 20px 0 0;
+    padding: 2rem 0 1rem;
+    margin-top: 3rem;
     position: relative;
-}
-
-footer::before {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: 0;
-    right: 0;
-    height:20px;
-    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="%23c0392b" opacity=".25"/><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" fill="%23c0392b" opacity=".5"/><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%23c0392b"/></svg>');
-    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer .container {
-    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-footer .footer-grid {
+.footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section {
     text-align: left;
+    padding: 0 10px;
 }
 
-footer .footer-section h3 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 0.5rem;
+.footer-section h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-footer .footer-section p,
-footer .footer-section address {
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6;
+.footer-section p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin: 0;
 }
 
-footer .footer-section ul {
+.footer-section ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-footer .footer-section ul li {
-    margin-bottom: 0.8rem;
+.footer-section ul li {
+    margin-bottom: 0.6rem;
 }
 
-footer .footer-section ul li a {
+.footer-section ul li a {
+    font-size: 0.9rem;
+    font-weight: 400;
     color: #f3d2c1;
     text-decoration: none;
-    transition: all 0.3s ease;
-    font-weight: 500; /* Adjusted for Roboto */
-    font-size: 0.95rem;
+    transition: color 0.3s ease;
 }
 
-footer .footer-section ul li a:hover {
+.footer-section ul li a:hover {
     color: white;
-    text-decoration: underline;
+}
+
+.footer-section address {
+    font-style: normal;
+    margin: 0;
+}
+
+.footer-section address p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: 0.6rem;
+}
+
+.footer-section address a {
+    color: #f3d2c1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section address a:hover {
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #e74c3c;
+    transform: scale(1.1);
 }
 
 .copyright {
-    margin-top: 2rem;
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.7);
     text-align: center;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 1rem 0 0;
+}
+
+/* Responsive footer adjustments */
+@media (max-width: 768px) {
+    footer {
+        padding: 1.5rem 0 0.8rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer-section {
+        padding: 0;
+    }
+
+    .footer-section h3 {
+        font-size: 1rem;
+    }
+
+    .footer-section p,
+    .footer-section ul li a,
+    .footer-section address p {
+        font-size: 0.85rem;
+    }
+
+    .social-links {
+        justify-content: center;
+        margin-top: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-grid {
+        gap: 0.8rem;
+    }
+
+    .footer-section h3 {
+        font-size: 0.95rem;
+    }
+
+    .footer-section p,
+    .footer-section ul li a,
+    .footer-section address p {
+        font-size: 0.8rem;
+    }
+
+    .social-links a {
+        width: 28px;
+        height: 28px;
+        font-size: 0.9rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
 }
 
 /* ==========================================================================
@@ -758,7 +908,7 @@ footer .footer-section ul li a:hover {
     color: white;
     padding: 0.8rem 1.8rem;
     border-radius: 40px;
-    font-weight: 500; /* Adjusted for Roboto */
+    font-weight: 500;
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 0 3px 10px rgba(231, 76, 60, 0.4);
