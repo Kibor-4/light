@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy Laptops, Networking Equipment & Software Online | Leading Light Kenya</title>
+    <title>Buy Laptops, Networking Equipment &amp; Software Online | Leading Light Kenya</title>
 
     <meta name="description"
         content="Shop for quality laptops, networking solutions, and software in Kenya at Leading Light. Get warranty and expert support. Fast delivery and competitive prices. Buy now!">
 
-    <meta property="og:title" content="Leading Light Kenya: Your ICT Partner for Laptops, Networking & Software">
+    <meta property="og:title" content="Leading Light Kenya: Your ICT Partner for Laptops, Networking &amp; Software">
     <meta property="og:description"
         content="Find reliable laptops, networking equipment, and software solutions in Kenya. Leading Light offers quality ICT products with warranty.">
     <meta property="og:type" content="website">
@@ -18,11 +18,10 @@
     <link rel="canonical" href="https://www.leadinglight.co.ke/accessories.html">
 
     <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="laptop.css">
 
     <link rel="icon" href="images/logo-icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="accessories.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -82,10 +81,16 @@
         </div>
     </header>
 
-    <main>
+    <main class="main-content">
+        <aside class="sidebar">
+            <h2>Product Categories</h2>
+            <ul id="category-list">
+            </ul>
+        </aside>
+
         <section class="products">
             <div class="container">
-                <h1>Buy Laptops, Networking & Software Online in Kenya</h1>
+                <h1>Buy Laptops, Networking &amp; Software Online in Kenya</h1>
 
                 <p class="introduction">
                     Discover a wide range of high-quality ICT products at Leading Light, your trusted source in Kenya. We
@@ -94,7 +99,6 @@
                 </p>
 
                 <section class="product-categories">
-                    <!-- Product categories content would go here -->
                 </section>
 
                 <section class="featured-products">
@@ -174,7 +178,7 @@
     document.addEventListener("DOMContentLoaded", function() {
         // Update copyright year
         document.getElementById('year').textContent = new Date().getFullYear();
-        
+
         if ('loading' in HTMLImageElement.prototype) {
             const images = document.querySelectorAll("img[loading='lazy']");
             images.forEach(img => {
