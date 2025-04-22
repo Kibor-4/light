@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 12,
             title: "HP ProBook 430 G5",
             description: "A compact laptop for business and travel.",
-            price: "KSh 28,000",
+            price: "KSh 26,500",
             category: "HP Laptops",
             images: [
                 "Stock/HP 430, G5/pic1.jpg",
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             specs: [
                 "CPU: Intel Core i5-8250U @ 1.6GHz",
-                "RAM: 8GB DDR4",
+                "RAM: 4GB DDR4",
                 "Storage: 128GB SSD",
                 "Graphics: Intel UHD Graphics 620",
                 "Screen: 13.3 inch FHD"
@@ -432,7 +432,129 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Graphics: AMD Radeon Vega 10 Graphics",
                 "Screen: 14 inch FHD"
             ]
-        }
+        },
+        {
+            id: 21,
+            title: "HP EliteBook 830 G8",
+            description: "Thin, light 13.3 business laptop, 11th Gen Intel Core, enhanced security features.",
+            price: "KSh 55,000",
+            category: "HP Laptops",
+            images: [
+               " Stock/HP Elitebook 830 g8/pix1.jpg",
+                "Stock/HP Elitebook 830 g8/pic4.jpg",
+                "Stock/HP Elitebook 830 g8/pic3.jpg",
+                "Stock/HP Elitebook 830 g8/pic2.jpg",
+            ],
+            specs: [
+                "CPU: intel i5 11th generation",
+                "RAM: 8GB DDR4",
+                "Storage: 512GB SSD",
+                "Graphics: Intel UHD graphics",
+                "Screen: 13.3 inch FHD"
+            ]
+        },
+        {
+            id: 22,
+            title: "HP EliteBook 850 G7",
+            description: "Thin, light 15.6 business laptop, 10th Gen Intel Core, enhanced security",
+            price: "KSh 45,000",
+            category: "HP Laptops",
+            images: [
+                "Stock/Hp elitebook 850 G7/pic4.jpg",
+                "Stock/Hp elitebook 850 G7/pic3.jpg",
+                "Stock/Hp elitebook 850 G7/pic2.jpg",
+                "Stock/Hp elitebook 850 G7/pic1.jpg",
+            ],
+            specs: [
+                "CPU: intel i5 10th generation",
+                "RAM: 8GB DDR4",
+                "Storage: 256GB SSD",
+                "Graphics:  Intel UHD graphics",
+                "Screen: 15.6 inch FHD"
+            ]
+        },
+        {
+            id: 23,
+            title: "HP EliteBook 850 G6",
+            description: "Robust, slim 15.6 business laptop, 8th Gen Intel Core, enhanced security features.",
+            price: "KSh 42,000",
+            category: "HP Laptops",
+            images: [
+                "Stock/Hp elitebook 850 G6/pic4.jpg",
+                "Stock/Hp elitebook 850 G6/pic3.png",
+                "Stock/Hp elitebook 850 G6/pic2.jpg",
+                "Stock/Hp elitebook 850 G6/pic1.jpg",
+            ],
+            specs: [
+                "CPU: intel i7 8th generation",
+                "RAM: 816B DDR4",
+                "Storage: 512GB SSD",
+                "Graphics:  Intel UHD graphics",
+                "Screen: 15.6 inch FHD"
+            ]
+        },
+        {
+            id: 23,
+            title: "HP EliteBook 650 G5",
+            description: "Slim, secure 15.6 business laptop, enhanced features, Intel Core i5..",
+            price: "KSh 34,000",
+            category: "HP Laptops",
+            images: [
+                "Stock/Hp Elitebook 650 G5/pic4.jpg",
+                "Stock/Hp Elitebook 650 G5/pic3.jpg",
+                "Stock/Hp Elitebook 650 G5/pic2.jpg",
+                "Stock/Hp Elitebook 650 G5/pic1.jpg",
+            ],
+            specs: [
+                "CPU: intel i5 8th generation",
+                "RAM: 8GB DDR4",
+                "Storage: 512GB SSD",
+                "Graphics:Intel UHD graphics 620",
+                "Screen: 15.6 inch FHD"
+            ]
+        },
+        {
+            id: 23,
+            title: "HP Probook 650 G2",
+            description: "Robust 15.6 business laptop, Intel Core i5, reliable performance for professionals.",
+            price: "KSh 34,000",
+            category: "HP Laptops",
+            images: [
+                "Stock/HP Probook 650 G2/pic4.jpg",
+                "Stock/HP Probook 650 G2/pic3.jpg",
+                "Stock/HP Probook 650 G2/pic2.jpg",
+                "Stock/HP Probook 650 G2/pic1.jpg",
+            ],
+            specs: [
+                "CPU: intel i5 6th generation",
+                "RAM: 8GB DDR4",
+                "Storage: 256GB SSD",
+                "Graphics:Intel UHD graphics",
+                "Screen: 15.6 inch FHD"
+            ]
+        },
+        {
+        id: 12,
+            title: "HP ProBook 430 G5",
+            description: "A compact laptop for business and travel.",
+            price: "KSh 28,000",
+            category: "HP Laptops",
+            images: [
+                "Stock/HP 430, G5/pic1.jpg",
+                "Stock/HP 430, G5/pic2.jpg",
+                "Stock/HP 430, G5/pic3.jpg",
+                "Stock/HP 430, G5/pic4.png",
+                "Stock/HP 430, G5/pic5.jpg"
+            ],
+            specs: [
+                "CPU: Intel Core i5-8250U @ 1.6GHz",
+                "RAM: 8GB DDR4",
+                "Storage: 128GB SSD",
+                "Graphics: Intel UHD Graphics 620",
+                "Screen: 13.3 inch FHD"
+            ]
+        },
+
     ];
 
     // Generate product grid
