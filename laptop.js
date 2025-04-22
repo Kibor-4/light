@@ -487,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             specs: [
                 "CPU: intel i7 8th generation",
-                "RAM: 816B DDR4",
+                "RAM: 8GB DDR4",
                 "Storage: 512GB SSD",
                 "Graphics:  Intel UHD graphics",
                 "Screen: 15.6 inch FHD"
