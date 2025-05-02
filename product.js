@@ -46,7 +46,7 @@ const productsData = [
         ],
         title: 'Oraimo Space Buds Pro',
         description: 'Listen to music you love unbothered',
-        price: 'KSh 5,500',
+        price: 'KES 5,500',
         
     },
      {
@@ -57,7 +57,7 @@ const productsData = [
         ],
         title: 'Oraimo Car charger',
         description: 'Car charger',
-        price: 'KSh 700',
+        price: 'KES 700',
         
     },
     {
@@ -69,7 +69,7 @@ const productsData = [
         ],
         title: 'Oraimo Car modulator',
         description: 'Car charger',
-        price: 'KSh 1,500',
+        price: 'KES 1,500',
         
     },
     {
@@ -85,7 +85,7 @@ const productsData = [
         ],
         title: 'Oraimo Free Pods Lite',
         description: 'Listen to music you love unbothered',
-        price: 'KSh 2,500',
+        price: 'KES 2,500',
         
     },
     {
@@ -100,7 +100,7 @@ const productsData = [
         ],
         title: 'Oraimo Free Pods Lite',
         description: 'Listen to music you love unbothered',
-        price: 'KSh 350',
+        price: 'KES 350',
         
     },
     {
@@ -112,7 +112,7 @@ const productsData = [
         ],
         title: 'Oraimo Powercube',
         description: 'Normal charger',
-        price: 'KSh 800',
+        price: 'KES 800',
         
     },
   {
@@ -129,7 +129,7 @@ const productsData = [
     ],
     title: 'Oraimo Powerbank',
     description: '10,000mAh',
-    price: 'KSh 2,700',
+    price: 'KES 2,700',
     
 },
 {
@@ -147,7 +147,7 @@ const productsData = [
     ],
     title: 'Oraimo Powerbank',
     description: '20,000mAh',
-    price: 'KSh 4,000',
+    price: 'KES 4,000',
     
 },
 {
@@ -167,7 +167,7 @@ const productsData = [
     ],
     title: 'Oraimo Necklace lite',
     description: 'Listen to your music on the go ',
-    price: 'KSh 2,250',
+    price: 'KES 2,250',
     
 },
 
@@ -183,7 +183,7 @@ const productsData = [
     ],
     title: 'Oraimo Iphone lightning Cable',
     description: 'Iphone charger',
-    price: 'KSh 500',
+    price: 'KES 500',
     
 },
 {
@@ -193,7 +193,7 @@ const productsData = [
     ],
     title: 'Oraimo Type C',
     description: 'Type-C cable',
-    price: 'KSh 450',
+    price: 'KES 450',
     
 },
 {
@@ -211,7 +211,7 @@ const productsData = [
     ],
     title: 'Oraimo Watch 5 Ultra',
     description: 'Type-C cable',
-    price: 'KSh 3,500',
+    price: 'KES 3,500',
     
 },
 {
@@ -223,7 +223,7 @@ const productsData = [
     ],
     title: 'Bluetooth Gamepad',
     description: 'Bluetooth Gaming Pad',
-    price: 'KSh 1,800',
+    price: 'KES 1,800',
     
 },
 {
@@ -235,7 +235,7 @@ const productsData = [
     ],
     title: 'samsung 25w pd adapter',
     description: 'samsung 25w pd adapter',
-    price: 'KSh 2,400',
+    price: 'KES 2,400',
     
 },
 {
@@ -247,7 +247,7 @@ const productsData = [
     ],
     title: 'samsung 45w pd',
     description: 'samsung 45w pd',
-    price: 'KSh 4,000',
+    price: 'KES 4,000',
     
 },
 {
@@ -258,7 +258,7 @@ const productsData = [
     ],
     title: 'samsung travel adapter',
     description: 'samsung travel adapter',
-    price: 'KSh 3,700',
+    price: 'KES 3,700',
     
 },
 {
@@ -270,7 +270,7 @@ const productsData = [
     ],
     title: 'samsung usb c to usb c ',
     description: 'samsung usb c to usb c ',
-    price: 'KSh 800',
+    price: 'KES 800',
     
 },
 {
@@ -282,7 +282,7 @@ const productsData = [
             ],
     title: 'samsung wireless battery pack 10000mah ',
     description: 'samsung wireless battery pack 10000mah ',
-    price: 'KSh 7,000',
+    price: 'KES 7,000',
     
 },
 {
@@ -296,7 +296,7 @@ const productsData = [
             ],
     title: 'Flashdisk ',
     description: '32GB ',
-    price: 'KSh 1,500',
+    price: 'KES 1,500',
     
 },
 {
@@ -308,7 +308,7 @@ const productsData = [
             ],
     title: 'HP Flashdisk ',
     description: '64GB ',
-    price: 'KSh 2,000',
+    price: 'KES 2,000',
     
 },
 {
@@ -320,7 +320,7 @@ const productsData = [
             ],
     title: 'X-UK keyboard ',
     description: 'Keyboard ',
-    price: 'KSh 700',
+    price: 'KES 700',
     
 },
 {
@@ -333,7 +333,7 @@ const productsData = [
             ],
     title: 'X-UK Mouse ',
     description: 'Keyboard ',
-    price: 'KSh 500',
+    price: 'KES 500',
     
 },
 {
@@ -345,7 +345,7 @@ const productsData = [
             ],
     title: 'Laptop HDD ',
     description: '500GB ',
-    price: 'KSh 4,000',
+    price: 'KES 4,000',
     
 },
 {
@@ -356,7 +356,7 @@ const productsData = [
            ],
     title: ' PC Harddrive ',
     description: '8Gb,250GB',
-    price: 'KSh 4,000',
+    price: 'KES 4,000',
     
 },
 {
@@ -366,7 +366,7 @@ const productsData = [
            ],
     title: ' Havit Gamenote',
     description: 'Gaming Headphones',
-    price: 'KSh 7,000',
+    price: 'KES 7,000',
     
 },
 {
@@ -377,7 +377,7 @@ const productsData = [
            ],
     title: ' Havit headphones',
     description: 'Headphones',
-    price: 'KSh 2,200',
+    price: 'KES 2,200',
     
 },
 {
@@ -389,7 +389,7 @@ const productsData = [
            ],
     title: ' Havit bluetooth speaker',
     description: 'RGB bluetooth speaker',
-    price: 'KSh 4,000',
+    price: 'KES 4,000',
     
 },
 {
@@ -400,7 +400,7 @@ const productsData = [
            ],
     title: ' Apple 60W USB C',
     description: 'Charger',
-    price: 'KSh 800',
+    price: 'KES 800',
     
 },
 {
@@ -412,7 +412,7 @@ const productsData = [
            ],
     title: ' Epson L3250',
     description: 'Printer',
-    price: 'KSh 25,000',
+    price: 'KES 25,000',
     
 },
 {
@@ -424,7 +424,7 @@ const productsData = [
            ],
     title: ' Epson L3250',
     description: 'NWE-MINI-PRINTER THERMAL USB+LAN+WIFI',
-    price: 'KSh 12,000',
+    price: 'KES 12,000',
     
 },
 

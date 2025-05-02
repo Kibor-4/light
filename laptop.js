@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             title: "2015 Apple MacBook Air",
             description: "A sleek and powerful laptop for all your needs.",
-            price: "KSh 53,000",
+            price: "KES 53,000",
             category: "MacBook",
             images: [
                 "Stock/mACBOOK AIR 2015/PIC1.jpg",
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 2,
             title: "Lenovo ThinkPad Yoga 11e",
             description: "A versatile convertible laptop for work and play.",
-            price: "KSh 16,500",
+            price: "KES 16,500",
             category: "ThinkPad",
             images: [
                 "Stock/lenovo thinkpad yoga 11e/pic5.jpg",
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 3,
             title: "HP EliteBook 1040 G3",
             description: "A premium ultrabook for professionals.",
-            price: "KSh 39,000",
+            price: "KES 39,000",
             category: "HP Laptops",
             images: [
                 "Stock/hp1040 g3/pic4.webp",
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 4,
             title: "HP ProBook 635 G7",
             description: "A reliable laptop for business and productivity.",
-            price: "KSh 39,500",
+            price: "KES 39,500",
             category: "HP Laptops",
             images: [
                 "Stock/HP PROBOOK 635 G7 Ryzen 16256 ssd/pic5.jpg",
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 5,
             title: "HP ProBook 445 G9 Ryzen 7",
             description: "A high-performance laptop with touch capabilities.",
-            price: "KSh 55,000",
+            price: "KES 55,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP PROBOOK 445 G9 Ryzen 7 16256 ssd touch screen/pic5.jpg",
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 6,
             title: "HP ProBook 440 G5",
             description: "A durable laptop for everyday use.",
-            price: "KSh 42,000",
+            price: "KES 42,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP PROBOOK 440 G5/pic1.jpg",
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 7,
             title: "HP EliteBook 840 G5",
             description: "A secure and powerful business laptop.",
-            price: "KSh 35,000",
+            price: "KES 35,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP ELITEBOOK 840 G5/pic4.jpg",
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 8,
             title: "HP EliteBook 840 G2",
             description: "A cost-effective laptop for professionals.",
-            price: "KSh 28,500",
+            price: "KES 28,500",
             category: "HP Laptops",
             images: [
                 "Stock/HP ELITEBOOK 840 G2, 5TH GEN/pic5.jpg",
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 9,
             title: "HP EliteBook 830 G7 X360",
             description: "A versatile convertible laptop for modern workflows.",
-            price: "KSh 57,000",
+            price: "KES 57,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP ELITEBOOK 830 G7 X360 core i 5 10th gen 16512/pic5.jpg",
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 10,
             title: "HP EliteBook X360 1030 G3",
             description: "A premium convertible laptop for business.",
-            price: "KSh 45,000",
+            price: "KES 45,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP 830 G5/pic1.jpg",
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 11,
             title: "HP EliteBook 745 G5",
             description: "A powerful AMD-based laptop for professionals.",
-            price: "KSh 34,500",
+            price: "KES 34,500",
             category: "HP Laptops",
             images: [
                 
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 12,
             title: "HP ProBook 430 G5",
             description: "A compact laptop for business and travel.",
-            price: "KSh 26,500",
+            price: "KES 26,500",
             category: "HP Laptops",
             images: [
                 "Stock/HP 430, G5/pic1.jpg",
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 13,
             title: "Dell Latitude 7390",
             description: "A reliable laptop for business professionals.",
-            price: "KSh 36,000",
+            price: "KES 36,000",
             category: "Dell Laptops",
             images: [
                 "Stock/DELL 7390/pic1.jpg",
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 14,
             title: "Dell Latitude 5490",
             description: "A powerful laptop for multitasking.",
-            price: "KSh 40,500",
+            price: "KES 40,500",
             category: "Dell Laptops",
             images: [
                 "Stock/DELL 5490/pic1.jpg",
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 15,
             title: "Dell Latitude 3300",
             description: "An affordable laptop for everyday use.",
-            price: "KSh 21,600",
+            price: "KES 21,600",
             category: "Dell Laptops",
             images: [
                 "Stock/DELL 3300/pic1.jpg",
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 16,
             title: "Acer Chromebook",
             description: "A lightweight laptop for web-based tasks.",
-            price: "KSh 17,000",
+            price: "KES 17,000",
             category: "Chromebook",
             images: [
                 "Stock/Acer Chromebook/pic4.webp",
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 17,
             title: "Dell Latitude 7389",
             description: "A convertible laptop for flexibility.",
-            price: "KSh 36,000",
+            price: "KES 36,000",
             category: "Dell Laptops",
             images: [
                 "Stock/Dell 7389/pic 1.png",
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 18,
             title: "HP ZBook 14u G5",
             description: "A mobile workstation for creative professionals.",
-            price: "KSh 36,000",
+            price: "KES 36,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP z book 14u G5/pic1.jpg",
@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 19,
             title: "HP EliteBook 840 G4",
             description: "A secure laptop for business users.",
-            price: "KSh 36,000",
+            price: "KES 36,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP EliteBook 840, G4/pic4.jpg",
@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 20,
             title: "HP EliteBook 745 G6",
             description: "A high-performance AMD-based laptop.",
-            price: "KSh 40,000",
+            price: "KES 40,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP 745 g6/pic 1.jpeg",
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 21,
             title: "HP EliteBook 830 G8",
             description: "Thin, light 13.3 business laptop, 11th Gen Intel Core, enhanced security features.",
-            price: "KSh 55,000",
+            price: "KES 55,000",
             category: "HP Laptops",
             images: [
                " Stock/HP Elitebook 830 g8/pix1.jpg",
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 22,
             title: "HP EliteBook 850 G7",
             description: "Thin, light 15.6 business laptop, 10th Gen Intel Core, enhanced security",
-            price: "KSh 45,000",
+            price: "KES 45,000",
             category: "HP Laptops",
             images: [
                 "Stock/Hp elitebook 850 G7/pic4.jpg",
@@ -477,7 +477,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 23,
             title: "HP EliteBook 850 G6",
             description: "Robust, slim 15.6 business laptop, 8th Gen Intel Core, enhanced security features.",
-            price: "KSh 42,000",
+            price: "KES 42,000",
             category: "HP Laptops",
             images: [
                 "Stock/Hp elitebook 850 G6/pic4.jpg",
@@ -497,7 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 23,
             title: "HP EliteBook 650 G5",
             description: "Slim, secure 15.6 business laptop, enhanced features, Intel Core i5..",
-            price: "KSh 34,000",
+            price: "KES 34,000",
             category: "HP Laptops",
             images: [
                 "Stock/Hp Elitebook 650 G5/pic4.jpg",
@@ -517,7 +517,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 23,
             title: "HP Probook 650 G2",
             description: "Robust 15.6 business laptop, Intel Core i5, reliable performance for professionals.",
-            price: "KSh 34,000",
+            price: "KES 34,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP Probook 650 G2/pic4.jpg",
@@ -537,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
         id: 12,
             title: "HP ProBook 430 G5",
             description: "A compact laptop for business and travel.",
-            price: "KSh 28,000",
+            price: "KES 28,000",
             category: "HP Laptops",
             images: [
                 "Stock/HP 430, G5/pic1.jpg",
@@ -616,7 +616,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "image": product.images[0],
                 "offers": {
                     "@type": "Offer",
-                    "price": product.price.replace('KSh ', '').replace(',', ''),
+                    "price": product.price.replace('KES ', '').replace(',', ''),
                     "priceCurrency": "KES",
                     "availability": "https://schema.org/InStock"
                 }
