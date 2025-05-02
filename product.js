@@ -403,6 +403,30 @@ const productsData = [
     price: 'KSh 800',
     
 },
+{
+    category: 'accessories',
+    images: [
+        "Stock/epson l3250/pic3.jpg",
+        "Stock/epson l3250/pic2.jpg",
+        "Stock/epson l3250/pic1.jpg",
+           ],
+    title: ' Epson L3250',
+    description: 'Printer',
+    price: 'KSh 25,000',
+    
+},
+{
+    category: 'accessories',
+    images: [
+        "Stock/X printer/pic3.jpg",
+        "Stock/X printer/pic2.jpg",
+        "Stock/X printer/pic1.jpg",
+           ],
+    title: ' Epson L3250',
+    description: 'NWE-MINI-PRINTER THERMAL USB+LAN+WIFI',
+    price: 'KSh 12,000',
+    
+},
 
     
 ];
