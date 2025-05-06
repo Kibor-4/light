@@ -79,7 +79,7 @@ body {
 .company-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin-left: 20px; /* Choose your preferred left margin */
+    margin-left: 20px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     white-space: nowrap;
@@ -569,36 +569,37 @@ footer a[href^="tel"]:hover {
 footer {
     animation-delay: 0.2s;
 }
+
 .social-links {
-    margin-top: 20px; /* Increased spacing above the icons */
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Align icons to the left */
+    justify-content: flex-start;
 }
 
 .social-links a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px; /* Slightly larger icon container */
-    height: 40px; /* Slightly larger icon container */
-    margin-right: 15px; /* Increased spacing between icons */
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
     border-radius: 50%;
-    background-color: #f0f0f0; /* Light gray background */
-    color: #333; /* Dark gray icon color */
-    font-size: 1.4em; /* Larger icon size */
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.4em;
     text-decoration: none;
-    opacity: 0.8; /* Slightly transparent by default */
-    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease; /* More comprehensive transitions */
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    opacity: 0.8;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .social-links a:hover {
-    background-color: #007bff; /* Blue hover background */
-    color: #fff; /* White icon color on hover */
-    opacity: 1; /* Fully opaque on hover */
-    transform: scale(1.1); /* Slight scale-up on hover */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+    background-color: #007bff;
+    color: #fff;
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Specific brand colors */
